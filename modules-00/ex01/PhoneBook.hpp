@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 21:34:21 by fbesson           #+#    #+#             */
-/*   Updated: 2024/02/27 21:34:34 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/02/28 11:52:00 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include <cctype>
 
 void ft_printf(const char *str);
 bool check_number(std::string &str);

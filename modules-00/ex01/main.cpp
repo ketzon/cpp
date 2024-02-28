@@ -6,16 +6,12 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 21:34:25 by fbesson           #+#    #+#             */
-/*   Updated: 2024/02/27 21:34:32 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/02/28 11:53:01 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
 #include "Contact.hpp"
-
-#include <iostream>
-#include <string>
-#include <cctype>
 
 void ft_printf(const char *str)
 {
@@ -34,7 +30,29 @@ bool check_number(std::string &str)
 	return (false);
 }
 
-void parse_input(std::string data[])
+void clear_data(std::string data[5])
+{
+	int i = 0;
+	while (i < 5)
+		data[i++] = "";
+}
+
+
+int check_fields(std::string data[5])
+{
+	if (data[0].empty())
+		return (1);
+	if (data[1].empty())
+		return (1);
+	if (data[2].empty())
+		return (1);
+	if (data[3].empty())
+		return (1);
+	if (data[4].empty())
+		return (1);
+	return (0);
+}
+bool parse_input(std::string data[])
 {
 	ft_printf("Please enter contact data below \n");	
 	ft_printf("first name: ");	
@@ -53,7 +71,14 @@ void parse_input(std::string data[])
 	}
 	ft_printf("darkest secret: ");	
 	std::getline(std::cin, data[4]);
+	while (check_fields(data))
+	{
+		std::cout << "Empty field detected, contact discarded [ADD, SEARCH or EXIT]" << std::endl;	
+		clear_data(data);
+		return (false);
+	}
 	ft_printf("Contact added. continue with [ADD, SEARCH or EXIT]\n");	
+	return (true);
 }
 
 int main(void)
@@ -68,8 +93,8 @@ int main(void)
 		std::getline(std::cin, user_input);
 		if (user_input == "ADD")
 		{
-			parse_input(data);
-			book.add_contact(data);
+			if (parse_input(data) == true)
+				book.add_contact(data);
 		}
 		else if (user_input == "SEARCH")
 		{
