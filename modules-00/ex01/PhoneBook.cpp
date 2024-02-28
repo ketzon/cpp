@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 21:33:55 by fbesson           #+#    #+#             */
-/*   Updated: 2024/02/28 11:48:24 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/02/28 11:59:09 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,12 +64,6 @@ void PhoneBook::display_all_data (std::string index)
 	bool is_not_number = true;
 	int number_index;
 	number_index = atoi(index.c_str());
-	/* while (check_number(index) == is_not_number) */
-	/* { */
-	/* 	ft_printf("Index is not a number. Please enter a valid one: \n"); */
-	/* 	ft_printf("Choose index for full data: \n"); */
-	/* 	std::getline(std::cin, index); */ 
-	/* } */
 	while (check_number(index) == is_not_number || number_index >= this->number_of_contact || number_index < 0 || index.empty())
 	{
 		ft_printf("Index out of range. Please enter a valid one: \n");

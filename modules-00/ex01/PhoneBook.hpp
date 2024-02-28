@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 21:34:21 by fbesson           #+#    #+#             */
-/*   Updated: 2024/02/28 11:52:00 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/02/28 11:59:09 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ class PhoneBook
 		void display_book(void)  const;
 		void display_all_data (std::string index);
 		int get_nbr_of_contact(void) const;
-		/* void contact_replace(std::string new_contact); */
 		void welcome(void) const;
 		void goodbye(void) const;
 	private:
