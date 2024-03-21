@@ -4,12 +4,18 @@
 DiamondTrap::DiamondTrap(std::string name) : FragTrap(), ScavTrap(),  name(name)
 {
 	this->setName(this->name + "_clap_name");
+	this->setHit(100);
+	this->setEnergy(50);
+	this->setAttack(30);
 	std::cout << "(DiamondTrap name)Default constructor called : name is:" << this->name << std::endl;
 }
 
 DiamondTrap::DiamondTrap() : FragTrap(), ScavTrap()
 {
 	this->name.assign("Diamond unknown");
+	this->setHit(100);
+	this->setEnergy(50);
+	this->setAttack(30);
 	std::cout << "(DiamondTrap)Default constructor called : name is:" << this->name << std::endl;
 }
 

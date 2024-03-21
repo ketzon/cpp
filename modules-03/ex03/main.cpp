@@ -13,5 +13,6 @@ int main(void)
 	std::cout << a.ScavTrap::getEnergy() << std::endl;
 	std::cout << a.FragTrap::getAttack() << std::endl;
 	a.whoAmI();
+	a.attack("bob");
 	return (0);
 }
