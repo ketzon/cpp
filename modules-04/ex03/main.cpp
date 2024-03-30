@@ -29,8 +29,7 @@ int main(void)
 	*(Character*)new_me = *(Character*)me;
 	new_me->use(0, *bob);
 	new_me->use(1, *bob);
-	new_me->unequip(1);
-	new_me->use(1, *bob); //should print nothing
+	new_me->use(2, *bob); //should print northing
 	delete bob; 
 	delete me;
 	delete src;
