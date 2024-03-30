@@ -5,7 +5,7 @@
 #include "MateriaSource.hpp"
 #include "AMateria.hpp"
 
-int main(void)
+int main2(void)
 {
 	IMateriaSource *src = new MateriaSource();
 	src->learnMateria(new Ice());
@@ -38,3 +38,9 @@ int main(void)
 	return 0;
 }
 
+int main()
+{
+	main2();
+	system("leaks ./a.out");
+	return (0);
+}
