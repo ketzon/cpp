@@ -23,9 +23,16 @@ int main(void)
 	me->use(0, *bob);
 	me->use(1, *bob);
 
+	std::cout << "\nDEEP COPY\n"  << std::endl;
+	ICharacter* new_me = new Character();
+	*(Character*)new_me = *(Character*)me;
+	new_me->use(0, *bob);
+	new_me->use(1, *bob);
+	new_me->use(2, *bob); //should print nothing
 	delete bob;
 	delete me;
 	delete src;
+	delete new_me;
 
 	return 0;
 }
