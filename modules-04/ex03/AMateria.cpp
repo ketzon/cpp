@@ -12,12 +12,12 @@ AMateria::~AMateria()
 
 AMateria::AMateria(const AMateria& copy)
 {
-	*this = copy;
+	*this= copy;
 }
 
 AMateria& AMateria::operator=(const AMateria& ref)
 {
-	_type = ref.getType();	
+	_type.assign(ref.getType());
 	return *this;
 }
 
