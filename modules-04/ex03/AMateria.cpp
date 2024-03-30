@@ -33,5 +33,5 @@ std::string const& AMateria::getType() const
 
 void	AMateria::use(ICharacter& target)
 {
-	std::cout << "i don't know how to use a \"" + _type + "\" on " + target.getName() + " !"<< std::endl;
+	std::cout << "can't use "<< _type << " on " << target.getName() << std::endl;
 }

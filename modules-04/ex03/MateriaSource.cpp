@@ -19,8 +19,6 @@ MateriaSource::MateriaSource(const MateriaSource &copy)
 
 MateriaSource& MateriaSource::operator=(const MateriaSource &ref)
 {
-	if (this == &ref)
-		return *this;
 	for (int i = 0; i < 4; i++)
 	{
 		if (!_materia[i])
