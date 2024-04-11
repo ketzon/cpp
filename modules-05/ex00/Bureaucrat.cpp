@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:42 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/11 14:37:43 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/11 15:24:08 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ void Bureaucrat::checkGrade(int grade)
 	}
 	catch(std::exception& e)
 	{
-		std::cout << getName() 
+		std::cerr << getName() 
 				  << "["
 				  << getGrade()
 				  << "]"
