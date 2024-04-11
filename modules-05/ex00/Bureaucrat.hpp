@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:25 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/11 14:37:33 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/11 16:08:11 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ class Bureaucrat
 			public:
 				virtual const char* what() const throw()
 				{
-					return ": Grade is > 150\n";
+					return "Grade is > 150\n";
 				}
 		};
 		class GradeTooLowException : public std::exception
@@ -48,7 +48,7 @@ class Bureaucrat
 			public:
 				virtual const char* what() const throw()
 				{
-					return ": Grade is < 1\n";
+					return "Grade is < 1\n";
 				}
 		};
 	private:
