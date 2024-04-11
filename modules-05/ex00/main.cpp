@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:13 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/11 16:18:31 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/11 16:25:05 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int main(void)
 	}
 	try //decrement bureaucrat until out of range
 	{
-		Bureaucrat b("Looser", 148);	
+		Bureaucrat b("looser", 148);	
 		std::cout << b;
 		b.decrementGrade(); //149
 		std::cout << b;
