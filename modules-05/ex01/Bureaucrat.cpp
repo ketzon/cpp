@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:42 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/13 12:05:30 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/13 12:04:15 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,8 +68,24 @@ void Bureaucrat::decrementGrade()
 
 void Bureaucrat::checkGrade(int grade)
 {
-	if (grade < 1)
-		throw Bureaucrat::GradeTooHighException();
-	else if (grade > 150)
+	if (grade > 150)
 		throw Bureaucrat::GradeTooLowException();
+	else if (grade < 1)
+		throw Bureaucrat::GradeTooHighException();
+}
+
+void Bureaucrat::signForm()
+{
+	bool status = Form::getFormStatus();	
+	if (status == true)
+	{
+		std::cout << getName()
+				  << ""
+				  << std::endl;
+	}
+	else if (status == false)
+	{
+		std::cout << getName()
+				  << " "
+	}
 }
