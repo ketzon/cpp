@@ -6,22 +6,25 @@
 #include <fstream>
 #include <iostream>
 
+class Bureaucrat;
+
 class Form
 {
 	public:
 	//canonic
 	Form();
-	Form(std::string name, bool formStatus, int const signGrade, int const execGrade);
+	Form(std::string name, int const signGrade, int const execGrade);
 	~Form();
 	Form(const Form& copy);
 	Form& operator=(const Form& ref);
 	//personal
-	std::string getName();
-	bool getFormStatus();
-	int const getSignGrade();
-	int const getExecGrade();
+	const std::string& getName() const;
+	bool getFormStatus() const;
+	int getSignGrade() const;
+	int getExecGrade() const;
 	void beSigned(const Bureaucrat& Bureaucrat);
-	void checkGrade();
+	std::string printStatus(bool status);
+	void checkGrade(const int signGrade, const int execGrade);
 	void setStatus(bool status);
 	//exception
 	class GradeTooHighException : public std::exception
@@ -31,15 +34,15 @@ class Form
 		{
 			return "Grade too high";
 		}
-	}
+	};
 	class GradeTooLowException : public std::exception
 	{
 		public:
 		virtual const char *what() const throw()
 		{
-			return "Grade too low";
+			return " couldn't sign ";
 		}
-	}
+	};
 
 	private:
 
