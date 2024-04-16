@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:13 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/16 12:12:31 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/16 12:21:21 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(void)
 {
 	Bureaucrat bob("bob", 50);
 	Bureaucrat bryan("bryan", 51);
-	Form	psg("psg_contract", 50, 50);
+	Form	psg("psg contract", 50, 50);
 	std::cout << bob << bryan << psg << std::endl;
 
 	try
