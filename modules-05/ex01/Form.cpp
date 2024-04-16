@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Form.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/16 12:07:08 by fbesson           #+#    #+#             */
+/*   Updated: 2024/04/16 12:12:02 by fbesson          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Form.hpp"
 
 
@@ -17,7 +29,7 @@ void Form::checkGrade(const int signGrade, const int execGrade)
 {
 	if (signGrade > 150 || execGrade > 150)
 		throw Form::GradeTooLowException();
-	else if (signGrade < 1 || execGrade > 150)
+	else if (signGrade < 1 || execGrade < 1)
 		throw Form::GradeTooHighException();
 }
 

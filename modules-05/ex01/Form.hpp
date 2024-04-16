@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Form.hpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/16 12:07:12 by fbesson           #+#    #+#             */
+/*   Updated: 2024/04/16 12:08:42 by fbesson          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #pragma once
 
 #include "Bureaucrat.hpp"
@@ -32,7 +44,7 @@ class Form
 		public:
 		virtual const char *what() const throw()
 		{
-			return "Grade too high\n";
+			return "Grade too high";
 		}
 	};
 	class GradeTooLowException : public std::exception
@@ -40,7 +52,7 @@ class Form
 		public:
 		virtual const char *what() const throw()
 		{
-			return "Grade too low\n";
+			return "Grade too low";
 		}
 	};
 

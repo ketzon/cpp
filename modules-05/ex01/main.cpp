@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:13 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/16 11:43:13 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/16 12:12:31 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	main(void)
 	}
 	catch (const std::exception& form)
 	{
-		std::cout << "Can't create form because " << form.what();
+		std::cout << "Can't create form because " << form.what() << std::endl;
 	}
 	try
 	{
@@ -36,11 +36,9 @@ int	main(void)
 	}
 	catch (const std::exception& form)
 	{
-		std::cout << "Can't create form because " << form.what();
+		std::cout << "Can't create form because " << form.what() << std::endl;
 	}
 	bob.signForm(psg);
 	bryan.signForm(psg);
-
-	std::cout << "end" << std::endl;
 }
 
