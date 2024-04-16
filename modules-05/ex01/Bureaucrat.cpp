@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:42 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/15 21:13:42 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/16 11:31:04 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,8 +81,8 @@ void Bureaucrat::signForm(Form& Form)
 		Form.beSigned(*this);
 		std::cout << getName() + " signed " + Form.getName() << std::endl;
 	}
-	catch (std::exception& e)
+	catch (const std::exception& e)
 	{
-		std::cout << getName() + e.what() + Form.getName() + " because grade too low";
+		std::cerr << getName() + " couldn't sign " + Form.getName() + " because " + e.what() << std::endl;
 	}
 }
