@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 14:37:13 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/22 17:14:18 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/22 17:40:34 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ int main(void)
   try 
   {
     Bureaucrat bob("bob", 10);
-    ShrubberyCreationForm a("shrubbery");   // 145, 137
-    RobotomyRequestForm b("robotomy");    // 72, 45
-    PresidentialPardonForm c("presidential");  // 25, 5
+    ShrubberyCreationForm a("home");   // 145, 137
+    RobotomyRequestForm b("wall-e");    // 72, 45
+    PresidentialPardonForm c("douglas adams");  // 25, 5
 
 	
 	std::cout << "\n---Bob---" << std::endl;
@@ -45,6 +45,6 @@ int main(void)
   } 
   catch (const std::exception& e) 
   {
-    std::cout << e.what() << '\n';
+    std::cout << e.what() << std::endl;
   }
 }

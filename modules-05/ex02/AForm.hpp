@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 12:07:12 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/17 16:57:31 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/22 17:35:30 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class AForm
 	//canonic
 	AForm();
 	AForm(std::string name, int const signGrade, int const execGrade);
-	~AForm();
+	virtual ~AForm();
 	AForm(const AForm& copy);
 	AForm& operator=(const AForm& ref);
 	//personal
