@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 12:07:08 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/17 17:11:06 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/22 16:16:04 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,12 +101,10 @@ void AForm::checkExec(const Bureaucrat& executor) const
 {
 	if (getFormStatus() == false)
 	{
-		std::cout << executor.getName() << " couldn't execute " << _name <<" because ";
 		throw AForm::FormNotSignedException();
 	}
 	if (executor.getGrade() > _execGrade)
 	{
-		std::cout << executor.getName() << " couldn't execute " << _name <<" because ";
 		throw AForm::GradeTooLowException();
 	}
 }

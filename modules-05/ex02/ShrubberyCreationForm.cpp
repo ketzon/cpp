@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ShrubberyCreationForm.cpp                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/22 17:18:08 by fbesson           #+#    #+#             */
+/*   Updated: 2024/04/22 17:18:21 by fbesson          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ShrubberyCreationForm.hpp"
 
 ShrubberyCreationForm::ShrubberyCreationForm() : AForm("ShrubberyCreationForm", 145, 137), _target("default")
@@ -31,7 +43,6 @@ void ShrubberyCreationForm::execute(Bureaucrat const & executor) const
 		std::perror("Error: opening file");
 		return;
 	}
-	file.open(file);
 	file << "   |    " << std::endl;
 	file << "  |||   " << std::endl;
 	file << " |_|_|  " << std::endl;
