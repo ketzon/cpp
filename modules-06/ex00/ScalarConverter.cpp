@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 11:57:30 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/29 11:57:53 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/29 16:17:42 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ void ScalarConverter::printInt(std::string str)
 	{
 	std::cout << "int: ";
 	long long intValue = atoll(str.c_str());
-	if (intValue > INT_MAX || intValue < INT_MIN)
+	if (intValue > INT_MAX || intValue < INT_MIN || chara(str))
 		throw ScalarConverter::ImpossibleException();
 	std::cout << static_cast<int>(intValue) << "\n";
 	}
@@ -105,7 +105,7 @@ void ScalarConverter::printFloat(std::string str)
 	{
 		std::cout << "float: ";
 		long long floatValue = atoll(str.c_str());
-		if (floatValue > INT_MAX || floatValue < INT_MIN)
+		if (floatValue > INT_MAX || floatValue < INT_MIN || chara(str))
 			throw ScalarConverter::ImpossibleException();
 		std::cout << std::fixed << std::setprecision(1) << static_cast<float>(floatValue) << "f" << std::endl;
 	}
@@ -121,7 +121,7 @@ void ScalarConverter::printDouble(std::string str)
 	{
 		std::cout << "double: ";
 		long long doubleValue = atoll(str.c_str());
-		if (doubleValue > INT_MAX || doubleValue < INT_MIN)
+		if (doubleValue > INT_MAX || doubleValue < INT_MIN || chara(str))
 			throw ScalarConverter::ImpossibleException();
 		std::cout << std::fixed << std::setprecision(1) << static_cast<double>(doubleValue) << std::endl;
 	}
@@ -129,4 +129,14 @@ void ScalarConverter::printDouble(std::string str)
 	{
 		std::cout << e.what() << std::endl;
 	}
+}
+
+int ScalarConverter::chara(std::string str)
+{
+	for (size_t i = 0; i < str.size(); i++)
+	{
+		if (!std::isdigit(str[i]) && str[i] != 'f' && str[i] != '.')
+			return 1;	
+	}
+	return 0;
 }

@@ -7,6 +7,7 @@
 #include <iomanip>
 #include <iostream>
 #include <limits.h>
+#include <algorithm>
 
 class ScalarConverter
 {
@@ -19,6 +20,7 @@ class ScalarConverter
 		static void printInt(const std::string str);
 		static void printFloat(const std::string str);
 		static void printDouble(const std::string str);
+		static int	chara(const std::string str);
 		//exception
 		class ImpossibleException : public std::exception
 		{
