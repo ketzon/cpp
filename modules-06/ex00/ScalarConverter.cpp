@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 11:57:30 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/29 17:33:31 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/29 17:41:23 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ void ScalarConverter::printChar(std::string str)
 		std::cout << "'" << static_cast<char>(str[0]) << "'\n";
 	else 
 	{
-		int intValue = std::atoi(str.c_str());
+		int intValue = static_cast<int>(std::atoi(str.c_str()));
 		if (intValue > 127 || intValue < 0)
 			throw ScalarConverter::ImpossibleException();
 		if (std::isprint(static_cast<char>(intValue)))
