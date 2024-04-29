@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 11:57:30 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/29 16:23:42 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/29 16:57:42 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ void ScalarConverter::printFloat(std::string str)
 	{
 		std::cout << "float: ";
 		long long floatValue = atoll(str.c_str());
-		if (floatValue > INT_MAX || floatValue < INT_MIN || chara(str))
+		if (floatValue > FLT_MAX || floatValue < FLT_MIN || chara(str))
 			throw ScalarConverter::ImpossibleException();
 		std::cout << std::fixed << std::setprecision(1) << static_cast<float>(floatValue) << "f" << std::endl;
 	}
@@ -121,7 +121,7 @@ void ScalarConverter::printDouble(std::string str)
 	{
 		std::cout << "double: ";
 		long long doubleValue = atoll(str.c_str());
-		if (doubleValue > INT_MAX || doubleValue < INT_MIN || chara(str))
+		if (doubleValue > DBL_MAX || doubleValue < DBL_MIN || chara(str))
 			throw ScalarConverter::ImpossibleException();
 		std::cout << std::fixed << std::setprecision(1) << static_cast<double>(doubleValue) << std::endl;
 	}
