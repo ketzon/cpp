@@ -8,7 +8,7 @@ int main(int ac, char **av)
 	{
 		ScalarConverter::convert(av[1]);
 	}
-	catch (const ScalarConverter::EmptyException& e)
+	catch (const std::exception& e)
 	{
 		std::cout << e.what() << std::endl;
 	}
