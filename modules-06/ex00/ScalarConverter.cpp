@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 11:57:30 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/29 16:57:42 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/29 17:33:31 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,7 @@ void ScalarConverter::printInt(std::string str)
 	try 
 	{
 	std::cout << "int: ";
-	long long intValue = atoll(str.c_str());
+	long long intValue = static_cast<long long>(atoll(str.c_str()));
 	if (intValue > INT_MAX || intValue < INT_MIN || chara(str))
 		throw ScalarConverter::ImpossibleException();
 	std::cout << static_cast<int>(intValue) << "\n";
@@ -101,34 +101,50 @@ void ScalarConverter::printInt(std::string str)
 
 void ScalarConverter::printFloat(std::string str)
 {
-	try
-	{
-		std::cout << "float: ";
-		long long floatValue = atoll(str.c_str());
-		if (floatValue > FLT_MAX || floatValue < FLT_MIN || chara(str))
-			throw ScalarConverter::ImpossibleException();
-		std::cout << std::fixed << std::setprecision(1) << static_cast<float>(floatValue) << "f" << std::endl;
-	}
-	catch (const ScalarConverter::ImpossibleException& e)
-	{
-		std::cout << e.what() << std::endl;
-	}
+    try
+    {
+        std::cout << "float: ";
+        float floatValue = 0.0f;
+        if (str[0] == '-')
+        {
+            floatValue = static_cast<float>(-std::strtof(str.substr(1).c_str(), NULL));
+        }
+        else
+        {
+            floatValue = static_cast<float>(std::strtof(str.c_str(), NULL));
+        }
+        if (floatValue > FLT_MAX || floatValue < -FLT_MAX || chara(str))
+            throw ScalarConverter::ImpossibleException();
+        std::cout << std::fixed << std::setprecision(1) << floatValue << "f" << std::endl;
+    }
+    catch (const ScalarConverter::ImpossibleException& e)
+    {
+        std::cout << e.what() << std::endl;
+    }
 }
 
 void ScalarConverter::printDouble(std::string str)
 {
-	try
-	{
-		std::cout << "double: ";
-		long long doubleValue = atoll(str.c_str());
-		if (doubleValue > DBL_MAX || doubleValue < DBL_MIN || chara(str))
-			throw ScalarConverter::ImpossibleException();
-		std::cout << std::fixed << std::setprecision(1) << static_cast<double>(doubleValue) << std::endl;
-	}
-	catch (const ScalarConverter::ImpossibleException& e)
-	{
-		std::cout << e.what() << std::endl;
-	}
+    try
+    {
+        std::cout << "double: ";
+        double doubleValue = 0.0;
+        if (str[0] == '-')
+        {
+            doubleValue = static_cast<double>(-std::strtod(str.substr(1).c_str(), NULL));
+        }
+        else
+        {
+            doubleValue = static_cast<double>(std::strtod(str.c_str(), NULL));
+        }
+        if (doubleValue > DBL_MAX || doubleValue < -DBL_MAX || chara(str))
+            throw ScalarConverter::ImpossibleException();
+        std::cout << std::fixed << std::setprecision(1) << doubleValue << std::endl;
+    }
+    catch (const ScalarConverter::ImpossibleException& e)
+    {
+        std::cout << e.what() << std::endl;
+    }
 }
 
 int ScalarConverter::chara(std::string str)
