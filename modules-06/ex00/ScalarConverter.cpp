@@ -6,7 +6,7 @@
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 11:57:30 by fbesson           #+#    #+#             */
-/*   Updated: 2024/04/29 16:17:42 by fbesson          ###   ########.fr       */
+/*   Updated: 2024/04/29 16:23:42 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,7 +135,7 @@ int ScalarConverter::chara(std::string str)
 {
 	for (size_t i = 0; i < str.size(); i++)
 	{
-		if (!std::isdigit(str[i]) && str[i] != 'f' && str[i] != '.')
+		if (!std::isdigit(str[i]) && str[i] != 'f' && str[i] != '.' && str[i] != '-' && str[i] != '+')
 			return 1;	
 	}
 	return 0;
