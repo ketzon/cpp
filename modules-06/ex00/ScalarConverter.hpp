@@ -8,7 +8,6 @@
 #include <iostream>
 #include <limits.h>
 #include <cfloat>
-#include <algorithm>
 
 class ScalarConverter
 {
