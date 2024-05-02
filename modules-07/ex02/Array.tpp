@@ -1,4 +1,4 @@
-template<typename T> 
+template <typename T> 
 Array<T>::Array() : _size(0)
 {
 	 _array = new T[_size];	
