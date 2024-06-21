@@ -1,0 +1,1021 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	modules-06/ex02/Class.hpp	/^class A : public Base {};$/;"	c
+AForm	modules-05/ex02/AForm.cpp	/^AForm::AForm() : _name("default"), _signGrade(150), _execGrade(150)$/;"	f	class:AForm
+AForm	modules-05/ex02/AForm.cpp	/^AForm::AForm(const AForm& copy) : _signGrade(copy._signGrade), _execGrade(copy._execGrade)$/;"	f	class:AForm
+AForm	modules-05/ex02/AForm.cpp	/^AForm::AForm(std::string name, int const signGrade, int const execGrade) : _name(name), _signGrade(signGrade), _execGrade(execGrade) $/;"	f	class:AForm
+AForm	modules-05/ex02/AForm.hpp	/^class AForm$/;"	c
+AForm	modules-05/ex03/AForm.cpp	/^AForm::AForm() : _name("default"), _signGrade(150), _execGrade(150)$/;"	f	class:AForm
+AForm	modules-05/ex03/AForm.cpp	/^AForm::AForm(const AForm& copy) : _signGrade(copy._signGrade), _execGrade(copy._execGrade)$/;"	f	class:AForm
+AForm	modules-05/ex03/AForm.cpp	/^AForm::AForm(std::string name, int const signGrade, int const execGrade) : _name(name), _signGrade(signGrade), _execGrade(execGrade) $/;"	f	class:AForm
+AForm	modules-05/ex03/AForm.hpp	/^class AForm$/;"	c
+AMateria	modules-04/ex03/AMateria.cpp	/^AMateria::AMateria(const AMateria& copy)$/;"	f	class:AMateria
+AMateria	modules-04/ex03/AMateria.cpp	/^AMateria::AMateria(std::string const & type) :  _type(type)$/;"	f	class:AMateria
+AMateria	modules-04/ex03/AMateria.hpp	/^class AMateria$/;"	c
+ANIMAL_HPP	modules-04/ex00/Animal.hpp	2;"	d
+ANIMAL_HPP	modules-04/ex01/Animal.hpp	2;"	d
+ANIMAL_HPP	modules-04/ex02/Animal.hpp	2;"	d
+Account	modules-00/ex02/Account.cpp	/^Account::Account(int initial_deposit)$/;"	f	class:Account
+Account	modules-00/ex02/Account.hpp	/^class Account {$/;"	c
+Animal	modules-04/ex00/Animal.cpp	/^Animal::Animal() : type("Animal")$/;"	f	class:Animal
+Animal	modules-04/ex00/Animal.cpp	/^Animal::Animal(const Animal& copy)$/;"	f	class:Animal
+Animal	modules-04/ex00/Animal.hpp	/^class Animal$/;"	c
+Animal	modules-04/ex01/Animal.cpp	/^Animal::Animal() : type("Animal")$/;"	f	class:Animal
+Animal	modules-04/ex01/Animal.cpp	/^Animal::Animal(const Animal& copy)$/;"	f	class:Animal
+Animal	modules-04/ex01/Animal.hpp	/^class Animal$/;"	c
+Animal	modules-04/ex02/Animal.cpp	/^Animal::Animal() : type("Animal")$/;"	f	class:Animal
+Animal	modules-04/ex02/Animal.cpp	/^Animal::Animal(const Animal& copy)$/;"	f	class:Animal
+Animal	modules-04/ex02/Animal.hpp	/^class Animal$/;"	c
+Array	modules-07/ex02/Array.hpp	/^class Array$/;"	c
+B	modules-06/ex02/Class.hpp	/^class B : public Base {};$/;"	c
+BRAIN_HPP	modules-04/ex01/Brain.hpp	2;"	d
+BRAIN_HPP	modules-04/ex02/Brain.hpp	2;"	d
+Base	modules-06/ex02/Class.hpp	/^class Base$/;"	c
+Bitcoin	modules-09/ex00/BitcoinExchange.cpp	/^Bitcoin::Bitcoin() { }$/;"	f	class:Bitcoin
+Bitcoin	modules-09/ex00/BitcoinExchange.cpp	/^Bitcoin::Bitcoin(char *file) : _file(file)  { Bitcoin::parseData();}$/;"	f	class:Bitcoin
+Bitcoin	modules-09/ex00/BitcoinExchange.hpp	/^class Bitcoin$/;"	c
+Brain	modules-04/ex01/Brain.cpp	/^Brain::Brain()$/;"	f	class:Brain
+Brain	modules-04/ex01/Brain.cpp	/^Brain::Brain(const Brain& copy)$/;"	f	class:Brain
+Brain	modules-04/ex01/Brain.hpp	/^class Brain$/;"	c
+Brain	modules-04/ex02/Brain.cpp	/^Brain::Brain()$/;"	f	class:Brain
+Brain	modules-04/ex02/Brain.cpp	/^Brain::Brain(const Brain& copy)$/;"	f	class:Brain
+Brain	modules-04/ex02/Brain.hpp	/^class Brain$/;"	c
+Bureaucrat	modules-05/ex00/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat() : _name("default"), _grade(150)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex00/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(const Bureaucrat& copy)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex00/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex00/Bureaucrat.hpp	/^class Bureaucrat$/;"	c
+Bureaucrat	modules-05/ex01/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat() : _name("default"), _grade(150)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex01/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(const Bureaucrat& copy)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex01/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex01/Bureaucrat.hpp	/^class Bureaucrat$/;"	c
+Bureaucrat	modules-05/ex02/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat() : _name("default"), _grade(150)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex02/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(const Bureaucrat& copy)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex02/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex02/Bureaucrat.hpp	/^class Bureaucrat$/;"	c
+Bureaucrat	modules-05/ex03/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat() : _name("default"), _grade(150)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex03/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(const Bureaucrat& copy)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex03/Bureaucrat.cpp	/^Bureaucrat::Bureaucrat(std::string name, int grade) : _name(name), _grade(grade)$/;"	f	class:Bureaucrat
+Bureaucrat	modules-05/ex03/Bureaucrat.hpp	/^class Bureaucrat$/;"	c
+C	modules-06/ex02/Class.hpp	/^class C : public Base {};$/;"	c
+CAT_HPP	modules-04/ex00/Cat.hpp	2;"	d
+CAT_HPP	modules-04/ex01/Cat.hpp	2;"	d
+CAT_HPP	modules-04/ex02/Cat.hpp	2;"	d
+CC	modules-00/ex00/Makefile	/^CC = c++$/;"	m
+CLAPTRAP_HPP	modules-03/ex00/ClapTrap.hpp	2;"	d
+CLAPTRAP_HPP	modules-03/ex01/ClapTrap.hpp	2;"	d
+CLAPTRAP_HPP	modules-03/ex02/ClapTrap.hpp	2;"	d
+CLAPTRAP_HPP	modules-03/ex03/ClapTrap.hpp	2;"	d
+CONTACT_HPP	modules-00/ex01/Contact.hpp	14;"	d
+CXX	modules-00/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-00/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex03/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex04/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex05/Makefile	/^CXX = c++$/;"	m
+CXX	modules-01/ex06/Makefile	/^CXX = c++$/;"	m
+CXX	modules-02/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-02/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-02/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-03/ex00/Makefile	/^CXX= c++$/;"	m
+CXX	modules-03/ex01/Makefile	/^CXX= c++$/;"	m
+CXX	modules-03/ex02/Makefile	/^CXX= c++$/;"	m
+CXX	modules-03/ex03/Makefile	/^CXX= c++$/;"	m
+CXX	modules-04/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-04/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-04/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-04/ex03/Makefile	/^CXX = c++$/;"	m
+CXX	modules-05/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-05/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-05/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-05/ex03/Makefile	/^CXX = c++$/;"	m
+CXX	modules-06/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-06/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-06/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-07/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-07/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-07/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-08/ex00/Makefile	/^CXX = c++$/;"	m
+CXX	modules-08/ex01/Makefile	/^CXX = c++$/;"	m
+CXX	modules-08/ex02/Makefile	/^CXX = c++$/;"	m
+CXX	modules-09/ex00/Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	modules-00/ex01/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-00/ex02/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex00/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex01/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex02/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex03/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex04/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex05/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-01/ex06/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-02/ex00/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-02/ex01/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-02/ex02/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-03/ex00/Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g$/;"	m
+CXXFLAGS	modules-03/ex01/Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g$/;"	m
+CXXFLAGS	modules-03/ex02/Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g$/;"	m
+CXXFLAGS	modules-03/ex03/Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g -Wno-shadow$/;"	m
+CXXFLAGS	modules-04/ex00/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-04/ex01/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-04/ex02/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-04/ex03/Makefile	/^CXXFLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+CXXFLAGS	modules-05/ex00/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-05/ex01/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-05/ex02/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-05/ex03/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-06/ex00/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-06/ex01/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-06/ex02/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-07/ex00/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-07/ex01/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-07/ex02/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-08/ex00/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-08/ex01/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-08/ex02/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+CXXFLAGS	modules-09/ex00/Makefile	/^CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g$/;"	m
+Cat	modules-04/ex00/Cat.cpp	/^Cat::Cat() : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex00/Cat.cpp	/^Cat::Cat(const Cat& copy) : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex00/Cat.hpp	/^class Cat : public Animal$/;"	c
+Cat	modules-04/ex01/Cat.cpp	/^Cat::Cat() : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex01/Cat.cpp	/^Cat::Cat(const Cat& copy) : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex01/Cat.hpp	/^class Cat : public Animal$/;"	c
+Cat	modules-04/ex02/Cat.cpp	/^Cat::Cat() : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex02/Cat.cpp	/^Cat::Cat(const Cat& copy) : Animal()$/;"	f	class:Cat
+Cat	modules-04/ex02/Cat.hpp	/^class Cat : public Animal$/;"	c
+Character	modules-04/ex03/Character.cpp	/^Character::Character()$/;"	f	class:Character
+Character	modules-04/ex03/Character.cpp	/^Character::Character(const Character& copy)$/;"	f	class:Character
+Character	modules-04/ex03/Character.cpp	/^Character::Character(std::string name) : _name(name)$/;"	f	class:Character
+Character	modules-04/ex03/Character.hpp	/^class Character : public ICharacter$/;"	c
+ClapTrap	modules-03/ex00/ClapTrap.cpp	/^ClapTrap::ClapTrap() : name("UnKnown"), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex00/ClapTrap.cpp	/^ClapTrap::ClapTrap(const ClapTrap &copy)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex00/ClapTrap.cpp	/^ClapTrap::ClapTrap(std::string name) : name(name), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex00/ClapTrap.hpp	/^class ClapTrap$/;"	c
+ClapTrap	modules-03/ex01/ClapTrap.cpp	/^ClapTrap::ClapTrap() : name("Unknown"), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex01/ClapTrap.cpp	/^ClapTrap::ClapTrap(const ClapTrap &copy)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex01/ClapTrap.cpp	/^ClapTrap::ClapTrap(std::string name) : name(name), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex01/ClapTrap.hpp	/^class ClapTrap$/;"	c
+ClapTrap	modules-03/ex02/ClapTrap.cpp	/^ClapTrap::ClapTrap() : name("Unknown"), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex02/ClapTrap.cpp	/^ClapTrap::ClapTrap(const ClapTrap &copy)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex02/ClapTrap.cpp	/^ClapTrap::ClapTrap(std::string name) : name(name), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex02/ClapTrap.hpp	/^class ClapTrap$/;"	c
+ClapTrap	modules-03/ex03/ClapTrap.cpp	/^ClapTrap::ClapTrap() : name("Unknown"), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex03/ClapTrap.cpp	/^ClapTrap::ClapTrap(const ClapTrap &copy)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex03/ClapTrap.cpp	/^ClapTrap::ClapTrap(std::string name) : name(name), hitPoints(10), energyPoints(10), attackDamage(0)$/;"	f	class:ClapTrap
+ClapTrap	modules-03/ex03/ClapTrap.hpp	/^class ClapTrap$/;"	c
+Contact	modules-00/ex01/Contact.cpp	/^Contact::Contact()$/;"	f	class:Contact
+Contact	modules-00/ex01/Contact.hpp	/^class Contact $/;"	c
+Cure	modules-04/ex03/Cure.cpp	/^Cure::Cure() : AMateria("cure")$/;"	f	class:Cure
+Cure	modules-04/ex03/Cure.cpp	/^Cure::Cure(const Cure& copy) : AMateria("cure")$/;"	f	class:Cure
+Cure	modules-04/ex03/Cure.hpp	/^class Cure: public AMateria$/;"	c
+DOG_HPP	modules-04/ex00/Dog.hpp	2;"	d
+DOG_HPP	modules-04/ex01/Dog.hpp	2;"	d
+DOG_HPP	modules-04/ex02/Dog.hpp	2;"	d
+Data	modules-06/ex01/Data.hpp	/^struct Data$/;"	s
+DiamondTrap	modules-03/ex03/DiamondTrap.cpp	/^DiamondTrap::DiamondTrap() : FragTrap(), ScavTrap()$/;"	f	class:DiamondTrap
+DiamondTrap	modules-03/ex03/DiamondTrap.cpp	/^DiamondTrap::DiamondTrap(const DiamondTrap& copy) : ClapTrap(), FragTrap(), ScavTrap() $/;"	f	class:DiamondTrap
+DiamondTrap	modules-03/ex03/DiamondTrap.cpp	/^DiamondTrap::DiamondTrap(std::string name) : FragTrap(), ScavTrap(),  name(name)$/;"	f	class:DiamondTrap
+DiamondTrap	modules-03/ex03/DiamondTrap.hpp	/^class DiamondTrap : public FragTrap, public ScavTrap$/;"	c
+DiamondTrap_HPP	modules-03/ex03/DiamondTrap.hpp	2;"	d
+Dog	modules-04/ex00/Dog.cpp	/^Dog::Dog() : Animal()$/;"	f	class:Dog
+Dog	modules-04/ex00/Dog.cpp	/^Dog::Dog(const Dog& copy) : Animal()$/;"	f	class:Dog
+Dog	modules-04/ex00/Dog.hpp	/^class Dog : public Animal$/;"	c
+Dog	modules-04/ex01/Dog.cpp	/^Dog::Dog() : Animal()$/;"	f	class:Dog
+Dog	modules-04/ex01/Dog.cpp	/^Dog::Dog(const Dog& copy) : Animal(), brain(NULL)$/;"	f	class:Dog
+Dog	modules-04/ex01/Dog.hpp	/^class Dog : public Animal$/;"	c
+Dog	modules-04/ex02/Dog.cpp	/^Dog::Dog() : Animal()$/;"	f	class:Dog
+Dog	modules-04/ex02/Dog.cpp	/^Dog::Dog(const Dog& copy) : Animal(), brain(NULL)$/;"	f	class:Dog
+Dog	modules-04/ex02/Dog.hpp	/^class Dog : public Animal$/;"	c
+ERR	modules-06/ex00/ScalarConverter.hpp	3;"	d
+EmptyException	modules-06/ex00/ScalarConverter.hpp	/^		class EmptyException : public std::exception$/;"	c	class:ScalarConverter
+FIXED_HPP	modules-02/ex00/Fixed.hpp	14;"	d
+FIXED_HPP	modules-02/ex01/Fixed.hpp	2;"	d
+FIXED_HPP	modules-02/ex02/Fixed.hpp	2;"	d
+FLAGS	modules-00/ex00/Makefile	/^FLAGS = -Wall -Werror -Wextra -g -std=c++98$/;"	m
+Fixed	modules-02/ex00/Fixed.cpp	/^Fixed::Fixed() : _fpn(0)$/;"	f	class:Fixed
+Fixed	modules-02/ex00/Fixed.cpp	/^Fixed::Fixed(const Fixed &other)$/;"	f	class:Fixed
+Fixed	modules-02/ex00/Fixed.hpp	/^class Fixed \/\/Fixed Point Number$/;"	c
+Fixed	modules-02/ex01/Fixed.cpp	/^Fixed::Fixed() : _fpn(0)$/;"	f	class:Fixed
+Fixed	modules-02/ex01/Fixed.cpp	/^Fixed::Fixed(const Fixed &other)$/;"	f	class:Fixed
+Fixed	modules-02/ex01/Fixed.cpp	/^Fixed::Fixed(const float nb_float)$/;"	f	class:Fixed
+Fixed	modules-02/ex01/Fixed.cpp	/^Fixed::Fixed(const int nb_int)$/;"	f	class:Fixed
+Fixed	modules-02/ex01/Fixed.hpp	/^class Fixed \/\/Fixed Point Number$/;"	c
+Fixed	modules-02/ex02/Fixed.cpp	/^Fixed::Fixed() : _fpn(0)$/;"	f	class:Fixed
+Fixed	modules-02/ex02/Fixed.cpp	/^Fixed::Fixed(const Fixed &other)$/;"	f	class:Fixed
+Fixed	modules-02/ex02/Fixed.cpp	/^Fixed::Fixed(const float nb_float)$/;"	f	class:Fixed
+Fixed	modules-02/ex02/Fixed.cpp	/^Fixed::Fixed(const int nb_int)$/;"	f	class:Fixed
+Fixed	modules-02/ex02/Fixed.hpp	/^class Fixed \/\/Fixed Point Number$/;"	c
+Form	modules-05/ex01/Form.cpp	/^Form::Form() : _name("default"), _signGrade(150), _execGrade(150)$/;"	f	class:Form
+Form	modules-05/ex01/Form.cpp	/^Form::Form(const Form& copy) : _signGrade(copy._signGrade), _execGrade(copy._execGrade)$/;"	f	class:Form
+Form	modules-05/ex01/Form.cpp	/^Form::Form(std::string name, int const signGrade, int const execGrade) : _name(name), _signGrade(signGrade), _execGrade(execGrade) $/;"	f	class:Form
+Form	modules-05/ex01/Form.hpp	/^class Form$/;"	c
+FormNotSignedException	modules-05/ex02/AForm.hpp	/^	class FormNotSignedException : public std::exception$/;"	c	class:AForm
+FormNotSignedException	modules-05/ex03/AForm.hpp	/^	class FormNotSignedException : public std::exception$/;"	c	class:AForm
+FragTrap	modules-03/ex02/FragTrap.cpp	/^FragTrap::FragTrap() : ClapTrap()$/;"	f	class:FragTrap
+FragTrap	modules-03/ex02/FragTrap.cpp	/^FragTrap::FragTrap(const FragTrap &copy) : ClapTrap()$/;"	f	class:FragTrap
+FragTrap	modules-03/ex02/FragTrap.cpp	/^FragTrap::FragTrap(std::string name) : ClapTrap(name)$/;"	f	class:FragTrap
+FragTrap	modules-03/ex02/FragTrap.hpp	/^class FragTrap : public ClapTrap$/;"	c
+FragTrap	modules-03/ex03/FragTrap.cpp	/^FragTrap::FragTrap() : ClapTrap()$/;"	f	class:FragTrap
+FragTrap	modules-03/ex03/FragTrap.cpp	/^FragTrap::FragTrap(const FragTrap &copy) : ClapTrap()$/;"	f	class:FragTrap
+FragTrap	modules-03/ex03/FragTrap.cpp	/^FragTrap::FragTrap(std::string name) : ClapTrap(name)$/;"	f	class:FragTrap
+FragTrap	modules-03/ex03/FragTrap.hpp	/^class FragTrap : virtual public ClapTrap$/;"	c
+FragTrap_hpp	modules-03/ex02/FragTrap.hpp	2;"	d
+FragTrap_hpp	modules-03/ex03/FragTrap.hpp	2;"	d
+GradeTooHighException	modules-05/ex00/Bureaucrat.hpp	/^		class GradeTooHighException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooHighException	modules-05/ex01/Bureaucrat.hpp	/^		class GradeTooHighException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooHighException	modules-05/ex01/Form.hpp	/^	class GradeTooHighException : public std::exception$/;"	c	class:Form
+GradeTooHighException	modules-05/ex02/AForm.hpp	/^	class GradeTooHighException : public std::exception$/;"	c	class:AForm
+GradeTooHighException	modules-05/ex02/Bureaucrat.hpp	/^		class GradeTooHighException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooHighException	modules-05/ex03/AForm.hpp	/^	class GradeTooHighException : public std::exception$/;"	c	class:AForm
+GradeTooHighException	modules-05/ex03/Bureaucrat.hpp	/^		class GradeTooHighException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooLowException	modules-05/ex00/Bureaucrat.hpp	/^		class GradeTooLowException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooLowException	modules-05/ex01/Bureaucrat.hpp	/^		class GradeTooLowException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooLowException	modules-05/ex01/Form.hpp	/^	class GradeTooLowException : public std::exception$/;"	c	class:Form
+GradeTooLowException	modules-05/ex02/AForm.hpp	/^	class GradeTooLowException : public std::exception$/;"	c	class:AForm
+GradeTooLowException	modules-05/ex02/Bureaucrat.hpp	/^		class GradeTooLowException : public std::exception$/;"	c	class:Bureaucrat
+GradeTooLowException	modules-05/ex03/AForm.hpp	/^	class GradeTooLowException : public std::exception$/;"	c	class:AForm
+GradeTooLowException	modules-05/ex03/Bureaucrat.hpp	/^		class GradeTooLowException : public std::exception$/;"	c	class:Bureaucrat
+HARL_HPP	modules-01/ex05/Harl.hpp	14;"	d
+HARL_HPP	modules-01/ex06/Harl.hpp	14;"	d
+HUMANA_HPP	modules-01/ex03/HumanA.hpp	14;"	d
+HUMANB_HPP	modules-01/ex03/HumanB.hpp	14;"	d
+Harl	modules-01/ex05/Harl.cpp	/^Harl::Harl()$/;"	f	class:Harl
+Harl	modules-01/ex05/Harl.hpp	/^class Harl$/;"	c
+Harl	modules-01/ex06/Harl.cpp	/^Harl::Harl()$/;"	f	class:Harl
+Harl	modules-01/ex06/Harl.hpp	/^class Harl$/;"	c
+HumanA	modules-01/ex03/HumanA.cpp	/^HumanA::HumanA(std::string name, Weapon &Weapon) : _name(name), _weapon(Weapon)$/;"	f	class:HumanA
+HumanA	modules-01/ex03/HumanA.hpp	/^class HumanA$/;"	c
+HumanB	modules-01/ex03/HumanB.cpp	/^HumanB::HumanB(std::string name) : _name(name), _weapon(NULL)$/;"	f	class:HumanB
+HumanB	modules-01/ex03/HumanB.hpp	/^class HumanB$/;"	c
+ICharacter	modules-04/ex03/ICharacter.hpp	/^class ICharacter $/;"	c
+IMateriaSource	modules-04/ex03/IMateriaSource.hpp	/^class IMateriaSource$/;"	c
+Ice	modules-04/ex03/Ice.cpp	/^Ice::Ice() : AMateria("ice")$/;"	f	class:Ice
+Ice	modules-04/ex03/Ice.cpp	/^Ice::Ice(const Ice& copy) : AMateria("ice")$/;"	f	class:Ice
+Ice	modules-04/ex03/Ice.hpp	/^class Ice : public AMateria$/;"	c
+ImpossibleException	modules-06/ex00/ScalarConverter.hpp	/^		class ImpossibleException : public std::exception$/;"	c	class:ScalarConverter
+Intern	modules-05/ex03/Intern.cpp	/^Intern::Intern()$/;"	f	class:Intern
+Intern	modules-05/ex03/Intern.cpp	/^Intern::Intern(const Intern& copy)$/;"	f	class:Intern
+Intern	modules-05/ex03/Intern.hpp	/^class Intern$/;"	c
+MateriaSource	modules-04/ex03/MateriaSource.cpp	/^MateriaSource::MateriaSource()$/;"	f	class:MateriaSource
+MateriaSource	modules-04/ex03/MateriaSource.cpp	/^MateriaSource::MateriaSource(const MateriaSource &copy)$/;"	f	class:MateriaSource
+MateriaSource	modules-04/ex03/MateriaSource.hpp	/^class MateriaSource : public IMateriaSource$/;"	c
+MutantStack	modules-08/ex02/MutantStack.hpp	/^	MutantStack() : std::stack<T>() {}$/;"	f	class:MutantStack
+MutantStack	modules-08/ex02/MutantStack.hpp	/^	MutantStack(const MutantStack<T>& copy) : std::stack<T>(copy) {}$/;"	f	class:MutantStack
+MutantStack	modules-08/ex02/MutantStack.hpp	/^class MutantStack : public std::stack<T>$/;"	c
+N	modules-01/ex01/main.cpp	14;"	d	file:
+NAME	modules-00/ex00/Makefile	/^NAME = megaphone$/;"	m
+NAME	modules-00/ex01/Makefile	/^NAME = phonebook$/;"	m
+NAME	modules-00/ex02/Makefile	/^NAME = bank $/;"	m
+NAME	modules-01/ex00/Makefile	/^NAME = zombie$/;"	m
+NAME	modules-01/ex01/Makefile	/^NAME = zombie$/;"	m
+NAME	modules-01/ex02/Makefile	/^NAME = brain$/;"	m
+NAME	modules-01/ex03/Makefile	/^NAME = violence$/;"	m
+NAME	modules-01/ex04/Makefile	/^NAME = Sedv2$/;"	m
+NAME	modules-01/ex05/Makefile	/^NAME = levels$/;"	m
+NAME	modules-01/ex06/Makefile	/^NAME = harlFilter$/;"	m
+NAME	modules-02/ex00/Makefile	/^NAME = Fixed$/;"	m
+NAME	modules-02/ex01/Makefile	/^NAME = Fixed$/;"	m
+NAME	modules-02/ex02/Makefile	/^NAME = Fixed$/;"	m
+NAME	modules-03/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-03/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-03/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-03/ex03/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-04/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-04/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-04/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-04/ex03/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-05/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-05/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-05/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-05/ex03/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-06/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-06/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-06/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-07/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-07/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-07/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-08/ex00/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-08/ex01/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-08/ex02/Makefile	/^NAME = a.out$/;"	m
+NAME	modules-09/ex00/Makefile	/^NAME = btc$/;"	m
+OBJS	modules-00/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-00/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex03/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex04/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex05/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-01/ex06/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-02/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-02/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-02/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-03/ex00/Makefile	/^OBJS = ${SRCS:.cpp=.o}$/;"	m
+OBJS	modules-03/ex01/Makefile	/^OBJS = ${SRCS:.cpp=.o}$/;"	m
+OBJS	modules-03/ex02/Makefile	/^OBJS = ${SRCS:.cpp=.o}$/;"	m
+OBJS	modules-03/ex03/Makefile	/^OBJS = ${SRCS:.cpp=.o}$/;"	m
+OBJS	modules-04/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-04/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-04/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-04/ex03/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-05/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-05/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-05/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-05/ex03/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-06/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-06/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-06/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-07/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-07/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-07/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-08/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-08/ex01/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-08/ex02/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OBJS	modules-09/ex00/Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+OutOfBoundsException	modules-07/ex02/Array.hpp	/^		class OutOfBoundsException : public std::exception$/;"	c	class:Array
+PHONEBOOK_HPP	modules-00/ex01/PhoneBook.hpp	14;"	d
+PhoneBook	modules-00/ex01/PhoneBook.cpp	/^PhoneBook::PhoneBook()$/;"	f	class:PhoneBook
+PhoneBook	modules-00/ex01/PhoneBook.hpp	/^class PhoneBook $/;"	c
+PresidentialPardonForm	modules-05/ex02/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm() : AForm("PresidentialPardonForm", 25, 5), _target("default")$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex02/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm& copy) : AForm("PresidentialPardonForm", 25, 5)$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex02/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm(const std::string& s) : AForm("PresidentialPardonForm", 25, 5), _target(s)$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex02/PresidentialPardonForm.hpp	/^class PresidentialPardonForm : public AForm$/;"	c
+PresidentialPardonForm	modules-05/ex03/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm() : AForm("PresidentialPardonForm", 25, 5), _target("default")$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex03/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm& copy) : AForm("PresidentialPardonForm", 25, 5)$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex03/PresidentialPardonForm.cpp	/^PresidentialPardonForm::PresidentialPardonForm(const std::string& s) : AForm("PresidentialPardonForm", 25, 5), _target(s)$/;"	f	class:PresidentialPardonForm
+PresidentialPardonForm	modules-05/ex03/PresidentialPardonForm.hpp	/^class PresidentialPardonForm : public AForm$/;"	c
+RM	modules-03/ex00/Makefile	/^RM = rm -f$/;"	m
+RM	modules-03/ex01/Makefile	/^RM = rm -f$/;"	m
+RM	modules-03/ex02/Makefile	/^RM = rm -f$/;"	m
+RM	modules-03/ex03/Makefile	/^RM = rm -f$/;"	m
+RM	modules-04/ex00/Makefile	/^RM = rm -rf$/;"	m
+RM	modules-04/ex01/Makefile	/^RM = rm -rf$/;"	m
+RM	modules-04/ex02/Makefile	/^RM = rm -rf$/;"	m
+RM	modules-04/ex03/Makefile	/^RM = rm -rf$/;"	m
+RobotomyRequestForm	modules-05/ex02/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm() : AForm("RobotomyRequestForm", 172, 45), _target("default")$/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex02/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& copy) : AForm("RobotomyRequestForm", 72, 45) $/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex02/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm(const std::string& s) : AForm("RobotomyRequestForm", 72, 45), _target(s)$/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex02/RobotomyRequestForm.hpp	/^class RobotomyRequestForm : public AForm$/;"	c
+RobotomyRequestForm	modules-05/ex03/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm() : AForm("RobotomyRequestForm", 172, 45), _target("default")$/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex03/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& copy) : AForm("RobotomyRequestForm", 72, 45) $/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex03/RobotomyRequestForm.cpp	/^RobotomyRequestForm::RobotomyRequestForm(const std::string& s) : AForm("RobotomyRequestForm", 72, 45), _target(s)$/;"	f	class:RobotomyRequestForm
+RobotomyRequestForm	modules-05/ex03/RobotomyRequestForm.hpp	/^class RobotomyRequestForm : public AForm$/;"	c
+SEDV2_HPP	modules-01/ex04/Sedv2.hpp	14;"	d
+SHRUB	modules-05/ex02/Makefile	/^SHRUB = *_shrubbery$/;"	m
+SHRUB	modules-05/ex03/Makefile	/^SHRUB = *_shrubbery$/;"	m
+SRCS	modules-00/ex00/Makefile	/^SRCS = megaphone.cpp$/;"	m
+SRCS	modules-00/ex01/Makefile	/^SRCS = Contact.cpp PhoneBook.cpp main.cpp$/;"	m
+SRCS	modules-00/ex02/Makefile	/^SRCS = Account.cpp tests.cpp$/;"	m
+SRCS	modules-01/ex00/Makefile	/^SRCS = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp$/;"	m
+SRCS	modules-01/ex01/Makefile	/^SRCS = main.cpp Zombie.cpp zombieHorde.cpp$/;"	m
+SRCS	modules-01/ex02/Makefile	/^SRCS = main.cpp $/;"	m
+SRCS	modules-01/ex03/Makefile	/^SRCS = HumanA.cpp  HumanB.cpp  main.cpp Weapon.cpp$/;"	m
+SRCS	modules-01/ex04/Makefile	/^SRCS = main.cpp Sedv2.cpp$/;"	m
+SRCS	modules-01/ex05/Makefile	/^SRCS = main.cpp Harl.cpp$/;"	m
+SRCS	modules-01/ex06/Makefile	/^SRCS = main.cpp Harl.cpp$/;"	m
+SRCS	modules-02/ex00/Makefile	/^SRCS = main.cpp Fixed.cpp$/;"	m
+SRCS	modules-02/ex01/Makefile	/^SRCS = main.cpp Fixed.cpp$/;"	m
+SRCS	modules-02/ex02/Makefile	/^SRCS = main.cpp Fixed.cpp$/;"	m
+SRCS	modules-03/ex00/Makefile	/^SRCS = main.cpp ClapTrap.cpp$/;"	m
+SRCS	modules-03/ex01/Makefile	/^SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp$/;"	m
+SRCS	modules-03/ex02/Makefile	/^SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp$/;"	m
+SRCS	modules-03/ex03/Makefile	/^SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp$/;"	m
+SRCS	modules-04/ex00/Makefile	/^SRCS = main.cpp Cat.cpp Dog.cpp Animal.cpp WrongAnimal.cpp WrongCat.cpp$/;"	m
+SRCS	modules-04/ex01/Makefile	/^SRCS = main.cpp Cat.cpp Dog.cpp Animal.cpp Brain.cpp$/;"	m
+SRCS	modules-04/ex02/Makefile	/^SRCS = main.cpp Cat.cpp Dog.cpp Animal.cpp Brain.cpp$/;"	m
+SRCS	modules-04/ex03/Makefile	/^SRCS = AMateria.cpp main.cpp Ice.cpp Cure.cpp Character.cpp MateriaSource.cpp$/;"	m
+SRCS	modules-05/ex00/Makefile	/^SRCS = Bureaucrat.cpp main.cpp $/;"	m
+SRCS	modules-05/ex01/Makefile	/^SRCS = Bureaucrat.cpp main.cpp Form.cpp$/;"	m
+SRCS	modules-05/ex02/Makefile	/^SRCS = Bureaucrat.cpp main.cpp AForm.cpp ShrubberyCreationForm.cpp PresidentialPardonForm.cpp RobotomyRequestForm.cpp$/;"	m
+SRCS	modules-05/ex03/Makefile	/^SRCS = Bureaucrat.cpp main.cpp AForm.cpp ShrubberyCreationForm.cpp PresidentialPardonForm.cpp RobotomyRequestForm.cpp Intern.cpp$/;"	m
+SRCS	modules-06/ex00/Makefile	/^SRCS = ScalarConverter.cpp main.cpp$/;"	m
+SRCS	modules-06/ex01/Makefile	/^SRCS = Serializer.cpp main.cpp$/;"	m
+SRCS	modules-06/ex02/Makefile	/^SRCS = main.cpp$/;"	m
+SRCS	modules-07/ex00/Makefile	/^SRCS = main.cpp$/;"	m
+SRCS	modules-07/ex01/Makefile	/^SRCS = main.cpp$/;"	m
+SRCS	modules-07/ex02/Makefile	/^SRCS = main.cpp$/;"	m
+SRCS	modules-08/ex00/Makefile	/^SRCS = main.cpp$/;"	m
+SRCS	modules-08/ex01/Makefile	/^SRCS = main.cpp Span.cpp$/;"	m
+SRCS	modules-08/ex02/Makefile	/^SRCS = main.cpp $/;"	m
+SRCS	modules-09/ex00/Makefile	/^SRCS = main.cpp BitcoinExchange.cpp $/;"	m
+SRCS_OBJS	modules-00/ex00/Makefile	/^SRCS_OBJS = $(SRCS:.cpp=.o)$/;"	m
+ScalarConverter	modules-06/ex00/ScalarConverter.cpp	/^ScalarConverter::ScalarConverter(void) {}$/;"	f	class:ScalarConverter
+ScalarConverter	modules-06/ex00/ScalarConverter.hpp	/^class ScalarConverter$/;"	c
+ScavTrap	modules-03/ex01/ScavTrap.cpp	/^ScavTrap::ScavTrap() : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex01/ScavTrap.cpp	/^ScavTrap::ScavTrap(const ScavTrap &copy) : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex01/ScavTrap.cpp	/^ScavTrap::ScavTrap(std::string name) : ClapTrap(name)$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex01/ScavTrap.hpp	/^class ScavTrap : public ClapTrap$/;"	c
+ScavTrap	modules-03/ex02/ScavTrap.cpp	/^ScavTrap::ScavTrap() : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex02/ScavTrap.cpp	/^ScavTrap::ScavTrap(const ScavTrap &copy) : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex02/ScavTrap.cpp	/^ScavTrap::ScavTrap(std::string name) : ClapTrap(name)$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex02/ScavTrap.hpp	/^class ScavTrap : public ClapTrap$/;"	c
+ScavTrap	modules-03/ex03/ScavTrap.cpp	/^ScavTrap::ScavTrap() : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex03/ScavTrap.cpp	/^ScavTrap::ScavTrap(const ScavTrap &copy) : ClapTrap()$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex03/ScavTrap.cpp	/^ScavTrap::ScavTrap(std::string name) : ClapTrap(name)$/;"	f	class:ScavTrap
+ScavTrap	modules-03/ex03/ScavTrap.hpp	/^class ScavTrap : virtual public ClapTrap$/;"	c
+ScavTrap_hpp	modules-03/ex01/ScavTrap.hpp	2;"	d
+ScavTrap_hpp	modules-03/ex02/ScavTrap.hpp	2;"	d
+ScavTrap_hpp	modules-03/ex03/ScavTrap.hpp	2;"	d
+Sedv2	modules-01/ex04/Sedv2.cpp	/^Sedv2::Sedv2(std::string fileName) : _inFile(fileName) {$/;"	f	class:Sedv2
+Sedv2	modules-01/ex04/Sedv2.hpp	/^class Sedv2$/;"	c
+Serializer	modules-06/ex01/Serializer.cpp	/^Serializer::Serializer() {}$/;"	f	class:Serializer
+Serializer	modules-06/ex01/Serializer.cpp	/^Serializer::Serializer(const Serializer &copy) { *this = copy; }$/;"	f	class:Serializer
+Serializer	modules-06/ex01/Serializer.hpp	/^class Serializer$/;"	c
+ShrubberyCreationForm	modules-05/ex02/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm() : AForm("ShrubberyCreationForm", 145, 137), _target("default")$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex02/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& copy) : AForm("ShrubberyCreationForm", 145, 137)$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex02/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm(const std::string& s) : AForm("ShrubberyCreationForm", 145, 137), _target(s)$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex02/ShrubberyCreationForm.hpp	/^class ShrubberyCreationForm : public AForm$/;"	c
+ShrubberyCreationForm	modules-05/ex03/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm() : AForm("ShrubberyCreationForm", 145, 137), _target("default")$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex03/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& copy) : AForm("ShrubberyCreationForm", 145, 137)$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex03/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::ShrubberyCreationForm(const std::string& s) : AForm("ShrubberyCreationForm", 145, 137), _target(s)$/;"	f	class:ShrubberyCreationForm
+ShrubberyCreationForm	modules-05/ex03/ShrubberyCreationForm.hpp	/^class ShrubberyCreationForm : public AForm$/;"	c
+Span	modules-08/ex01/Span.cpp	/^Span::Span() {}$/;"	f	class:Span
+Span	modules-08/ex01/Span.cpp	/^Span::Span(const Span& copy)$/;"	f	class:Span
+Span	modules-08/ex01/Span.cpp	/^Span::Span(unsigned int n) :  _n(n) {} $/;"	f	class:Span
+Span	modules-08/ex01/Span.hpp	/^class Span$/;"	c
+WEAPON_HPP	modules-01/ex03/Weapon.hpp	14;"	d
+WRONGANIMAL_HPP	modules-04/ex00/WrongAnimal.hpp	2;"	d
+WRONGCAT_HPP	modules-04/ex00/WrongCat.hpp	2;"	d
+Weapon	modules-01/ex03/Weapon.cpp	/^Weapon::Weapon(std::string type) : _type(type)$/;"	f	class:Weapon
+Weapon	modules-01/ex03/Weapon.hpp	/^class Weapon$/;"	c
+WrongAnimal	modules-04/ex00/WrongAnimal.cpp	/^WrongAnimal::WrongAnimal() : type("WrongAnimal")$/;"	f	class:WrongAnimal
+WrongAnimal	modules-04/ex00/WrongAnimal.cpp	/^WrongAnimal::WrongAnimal(const WrongAnimal& copy)$/;"	f	class:WrongAnimal
+WrongAnimal	modules-04/ex00/WrongAnimal.hpp	/^class WrongAnimal$/;"	c
+WrongCat	modules-04/ex00/WrongCat.cpp	/^WrongCat::WrongCat() : WrongAnimal()$/;"	f	class:WrongCat
+WrongCat	modules-04/ex00/WrongCat.cpp	/^WrongCat::WrongCat(const WrongCat& copy) : WrongAnimal()$/;"	f	class:WrongCat
+WrongCat	modules-04/ex00/WrongCat.hpp	/^class WrongCat : public WrongAnimal$/;"	c
+ZOMBIE_HPP	modules-01/ex00/Zombie.hpp	14;"	d
+ZOMBIE_HPP	modules-01/ex01/Zombie.hpp	14;"	d
+Zombie	modules-01/ex00/Zombie.cpp	/^Zombie::Zombie()$/;"	f	class:Zombie
+Zombie	modules-01/ex00/Zombie.cpp	/^Zombie::Zombie(std::string name) : name(name)$/;"	f	class:Zombie
+Zombie	modules-01/ex00/Zombie.hpp	/^class Zombie$/;"	c
+Zombie	modules-01/ex01/Zombie.cpp	/^Zombie::Zombie()$/;"	f	class:Zombie
+Zombie	modules-01/ex01/Zombie.cpp	/^Zombie::Zombie(std::string name, int i) : name(name), index(i)$/;"	f	class:Zombie
+Zombie	modules-01/ex01/Zombie.hpp	/^class Zombie$/;"	c
+__ACCOUNT_H__	modules-00/ex02/Account.hpp	13;"	d
+_accountIndex	modules-00/ex02/Account.hpp	/^	int				_accountIndex;$/;"	m	class:Account
+_amount	modules-00/ex02/Account.hpp	/^	int				_amount;$/;"	m	class:Account
+_array	modules-07/ex02/Array.hpp	/^			T* _array;$/;"	m	class:Array
+_displayTimestamp	modules-00/ex02/Account.cpp	/^void Account::_displayTimestamp( void )$/;"	f	class:Account
+_execGrade	modules-05/ex01/Form.hpp	/^	int const _execGrade;$/;"	m	class:Form
+_execGrade	modules-05/ex02/AForm.hpp	/^	int const _execGrade;$/;"	m	class:AForm
+_execGrade	modules-05/ex03/AForm.hpp	/^	int const _execGrade;$/;"	m	class:AForm
+_file	modules-09/ex00/BitcoinExchange.hpp	/^	char *_file;$/;"	m	class:Bitcoin
+_formStatus	modules-05/ex01/Form.hpp	/^	bool _formStatus;$/;"	m	class:Form
+_formStatus	modules-05/ex02/AForm.hpp	/^	bool _formStatus;$/;"	m	class:AForm
+_formStatus	modules-05/ex03/AForm.hpp	/^	bool _formStatus;$/;"	m	class:AForm
+_fpn	modules-02/ex00/Fixed.hpp	/^		int _fpn;$/;"	m	class:Fixed
+_fpn	modules-02/ex01/Fixed.hpp	/^		int _fpn;$/;"	m	class:Fixed
+_fpn	modules-02/ex02/Fixed.hpp	/^		int _fpn;$/;"	m	class:Fixed
+_grade	modules-05/ex00/Bureaucrat.hpp	/^		int _grade;$/;"	m	class:Bureaucrat
+_grade	modules-05/ex01/Bureaucrat.hpp	/^		int _grade;$/;"	m	class:Bureaucrat
+_grade	modules-05/ex02/Bureaucrat.hpp	/^		int _grade;$/;"	m	class:Bureaucrat
+_grade	modules-05/ex03/Bureaucrat.hpp	/^		int _grade;$/;"	m	class:Bureaucrat
+_inFile	modules-01/ex04/Sedv2.hpp	/^	std::string _inFile;$/;"	m	class:Sedv2
+_inventory	modules-04/ex03/Character.hpp	/^		AMateria *_inventory[4];$/;"	m	class:Character
+_materia	modules-04/ex03/MateriaSource.hpp	/^		AMateria	*_materia[4];$/;"	m	class:MateriaSource
+_multiset	modules-08/ex01/Span.hpp	/^		std::multiset<int> _multiset;$/;"	m	class:Span
+_myMap	modules-09/ex00/BitcoinExchange.hpp	/^	std::map<std::string, float> _myMap;$/;"	m	class:Bitcoin
+_n	modules-08/ex01/Span.hpp	/^		unsigned int _n;$/;"	m	class:Span
+_name	modules-01/ex03/HumanA.hpp	/^	std::string _name;$/;"	m	class:HumanA
+_name	modules-01/ex03/HumanB.hpp	/^	std::string _name;$/;"	m	class:HumanB
+_name	modules-04/ex03/Character.hpp	/^		std::string _name;$/;"	m	class:Character
+_name	modules-05/ex00/Bureaucrat.hpp	/^		std::string const _name;$/;"	m	class:Bureaucrat::std
+_name	modules-05/ex01/Bureaucrat.hpp	/^		std::string const _name;$/;"	m	class:Bureaucrat::std
+_name	modules-05/ex01/Form.hpp	/^	std::string const _name;$/;"	m	class:Form::std
+_name	modules-05/ex02/AForm.hpp	/^	std::string const _name;$/;"	m	class:AForm::std
+_name	modules-05/ex02/Bureaucrat.hpp	/^		std::string const _name;$/;"	m	class:Bureaucrat::std
+_name	modules-05/ex03/AForm.hpp	/^	std::string const _name;$/;"	m	class:AForm::std
+_name	modules-05/ex03/Bureaucrat.hpp	/^		std::string const _name;$/;"	m	class:Bureaucrat::std
+_nbAccounts	modules-00/ex02/Account.cpp	/^int Account::_nbAccounts = 0;$/;"	m	class:Account	file:
+_nbAccounts	modules-00/ex02/Account.hpp	/^	static int	_nbAccounts;$/;"	m	class:Account
+_nbDeposits	modules-00/ex02/Account.hpp	/^	int				_nbDeposits;$/;"	m	class:Account
+_nbFracBits	modules-02/ex00/Fixed.cpp	/^const int Fixed::_nbFracBits = 8;$/;"	m	class:Fixed	file:
+_nbFracBits	modules-02/ex00/Fixed.hpp	/^		static const int _nbFracBits;$/;"	m	class:Fixed
+_nbFracBits	modules-02/ex01/Fixed.cpp	/^const int Fixed::_nbFracBits = 8;$/;"	m	class:Fixed	file:
+_nbFracBits	modules-02/ex01/Fixed.hpp	/^		static const int _nbFracBits;$/;"	m	class:Fixed
+_nbFracBits	modules-02/ex02/Fixed.cpp	/^const int Fixed::_nbFracBits = 8;$/;"	m	class:Fixed	file:
+_nbFracBits	modules-02/ex02/Fixed.hpp	/^		static const int _nbFracBits;$/;"	m	class:Fixed
+_nbWithdrawals	modules-00/ex02/Account.hpp	/^	int				_nbWithdrawals;$/;"	m	class:Account
+_outFile	modules-01/ex04/Sedv2.hpp	/^	std::string _outFile;$/;"	m	class:Sedv2
+_signGrade	modules-05/ex01/Form.hpp	/^	int const _signGrade;$/;"	m	class:Form
+_signGrade	modules-05/ex02/AForm.hpp	/^	int const _signGrade;$/;"	m	class:AForm
+_signGrade	modules-05/ex03/AForm.hpp	/^	int const _signGrade;$/;"	m	class:AForm
+_size	modules-07/ex02/Array.hpp	/^			unsigned int _size;$/;"	m	class:Array
+_target	modules-05/ex02/PresidentialPardonForm.hpp	/^		std::string _target;$/;"	m	class:PresidentialPardonForm
+_target	modules-05/ex02/RobotomyRequestForm.hpp	/^		std::string _target;$/;"	m	class:RobotomyRequestForm
+_target	modules-05/ex02/ShrubberyCreationForm.hpp	/^		std::string _target;$/;"	m	class:ShrubberyCreationForm
+_target	modules-05/ex03/PresidentialPardonForm.hpp	/^		std::string _target;$/;"	m	class:PresidentialPardonForm
+_target	modules-05/ex03/RobotomyRequestForm.hpp	/^		std::string _target;$/;"	m	class:RobotomyRequestForm
+_target	modules-05/ex03/ShrubberyCreationForm.hpp	/^		std::string _target;$/;"	m	class:ShrubberyCreationForm
+_totalAmount	modules-00/ex02/Account.cpp	/^int Account::_totalAmount = 0;$/;"	m	class:Account	file:
+_totalAmount	modules-00/ex02/Account.hpp	/^	static int	_totalAmount;$/;"	m	class:Account
+_totalNbDeposits	modules-00/ex02/Account.cpp	/^int Account::_totalNbDeposits = 0;$/;"	m	class:Account	file:
+_totalNbDeposits	modules-00/ex02/Account.hpp	/^	static int	_totalNbDeposits;$/;"	m	class:Account
+_totalNbWithdrawals	modules-00/ex02/Account.cpp	/^int Account::_totalNbWithdrawals = 0;$/;"	m	class:Account	file:
+_totalNbWithdrawals	modules-00/ex02/Account.hpp	/^	static int	_totalNbWithdrawals;$/;"	m	class:Account
+_type	modules-01/ex03/Weapon.hpp	/^	std::string _type;$/;"	m	class:Weapon
+_type	modules-04/ex03/AMateria.hpp	/^		std::string _type;$/;"	m	class:AMateria
+_weapon	modules-01/ex03/HumanA.hpp	/^	Weapon &_weapon;$/;"	m	class:HumanA
+_weapon	modules-01/ex03/HumanB.hpp	/^	Weapon *_weapon;$/;"	m	class:HumanB
+addNumber	modules-08/ex01/Span.cpp	/^void Span::addNumber(int number)$/;"	f	class:Span
+addRange	modules-08/ex01/Span.cpp	/^void Span::addRange(t_it begin, t_it end)$/;"	f	class:Span
+add_contact	modules-00/ex01/PhoneBook.cpp	/^void PhoneBook::add_contact(std::string data[5])$/;"	f	class:PhoneBook
+announce	modules-01/ex00/Zombie.cpp	/^void Zombie::announce( void )$/;"	f	class:Zombie
+announce	modules-01/ex01/Zombie.cpp	/^void Zombie::announce( void )$/;"	f	class:Zombie
+attack	modules-01/ex03/HumanA.cpp	/^void HumanA::attack(void)$/;"	f	class:HumanA
+attack	modules-01/ex03/HumanB.cpp	/^void HumanB::attack(void)$/;"	f	class:HumanB
+attack	modules-03/ex00/ClapTrap.cpp	/^void ClapTrap::attack(const std::string& target)$/;"	f	class:ClapTrap
+attack	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::attack(const std::string& target)$/;"	f	class:ClapTrap
+attack	modules-03/ex01/ScavTrap.cpp	/^void ScavTrap::attack(const std::string& target)$/;"	f	class:ScavTrap
+attack	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::attack(const std::string& target)$/;"	f	class:ClapTrap
+attack	modules-03/ex02/FragTrap.cpp	/^void FragTrap::attack(const std::string& target)$/;"	f	class:FragTrap
+attack	modules-03/ex02/ScavTrap.cpp	/^void ScavTrap::attack(const std::string& target)$/;"	f	class:ScavTrap
+attack	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::attack(const std::string& target)$/;"	f	class:ClapTrap
+attack	modules-03/ex03/FragTrap.cpp	/^void FragTrap::attack(const std::string& target)$/;"	f	class:FragTrap
+attack	modules-03/ex03/ScavTrap.cpp	/^void ScavTrap::attack(const std::string& target)$/;"	f	class:ScavTrap
+attackDamage	modules-03/ex00/ClapTrap.hpp	/^	unsigned int attackDamage;$/;"	m	class:ClapTrap
+attackDamage	modules-03/ex01/ClapTrap.hpp	/^	unsigned int attackDamage;$/;"	m	class:ClapTrap
+attackDamage	modules-03/ex02/ClapTrap.hpp	/^	unsigned int attackDamage;$/;"	m	class:ClapTrap
+attackDamage	modules-03/ex03/ClapTrap.hpp	/^	unsigned int attackDamage;$/;"	m	class:ClapTrap
+beRepaired	modules-03/ex00/ClapTrap.cpp	/^void ClapTrap::beRepaired(unsigned int amount)$/;"	f	class:ClapTrap
+beRepaired	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::beRepaired(unsigned int amount)$/;"	f	class:ClapTrap
+beRepaired	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::beRepaired(unsigned int amount)$/;"	f	class:ClapTrap
+beRepaired	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::beRepaired(unsigned int amount)$/;"	f	class:ClapTrap
+beSigned	modules-05/ex01/Form.cpp	/^void Form::beSigned(const Bureaucrat& Bureaucrat)$/;"	f	class:Form
+beSigned	modules-05/ex02/AForm.cpp	/^void AForm::beSigned(const Bureaucrat& Bureaucrat)$/;"	f	class:AForm
+beSigned	modules-05/ex03/AForm.cpp	/^void AForm::beSigned(const Bureaucrat& Bureaucrat)$/;"	f	class:AForm
+begin	modules-08/ex02/MutantStack.hpp	/^	iterator begin() { return std::stack<T>::c.begin(); }$/;"	f	class:MutantStack
+brain	modules-04/ex01/Cat.hpp	/^	Brain *brain;$/;"	m	class:Cat
+brain	modules-04/ex01/Dog.hpp	/^	Brain *brain;$/;"	m	class:Dog
+brain	modules-04/ex02/Cat.hpp	/^	Brain *brain;$/;"	m	class:Cat
+brain	modules-04/ex02/Dog.hpp	/^	Brain *brain;$/;"	m	class:Dog
+cantFind	modules-08/ex00/easyfind.hpp	/^class cantFind : public std::exception$/;"	c
+chara	modules-06/ex00/ScalarConverter.cpp	/^int ScalarConverter::chara(std::string str)$/;"	f	class:ScalarConverter
+checkAmount	modules-00/ex02/Account.cpp	/^int Account::checkAmount(void) const$/;"	f	class:Account
+checkExec	modules-05/ex02/AForm.cpp	/^void AForm::checkExec(const Bureaucrat& executor) const$/;"	f	class:AForm
+checkExec	modules-05/ex03/AForm.cpp	/^void AForm::checkExec(const Bureaucrat& executor) const$/;"	f	class:AForm
+checkGrade	modules-05/ex00/Bureaucrat.cpp	/^void Bureaucrat::checkGrade(int grade)$/;"	f	class:Bureaucrat
+checkGrade	modules-05/ex01/Bureaucrat.cpp	/^void Bureaucrat::checkGrade(int grade)$/;"	f	class:Bureaucrat
+checkGrade	modules-05/ex01/Form.cpp	/^void Form::checkGrade(const int signGrade, const int execGrade)$/;"	f	class:Form
+checkGrade	modules-05/ex02/AForm.cpp	/^void AForm::checkGrade(const int signGrade, const int execGrade)$/;"	f	class:AForm
+checkGrade	modules-05/ex02/Bureaucrat.cpp	/^void Bureaucrat::checkGrade(int grade)$/;"	f	class:Bureaucrat
+checkGrade	modules-05/ex03/AForm.cpp	/^void AForm::checkGrade(const int signGrade, const int execGrade)$/;"	f	class:AForm
+checkGrade	modules-05/ex03/Bureaucrat.cpp	/^void Bureaucrat::checkGrade(int grade)$/;"	f	class:Bureaucrat
+check_fields	modules-00/ex01/main.cpp	/^int check_fields(std::string data[5])$/;"	f
+check_number	modules-00/ex01/main.cpp	/^bool check_number(std::string &str)$/;"	f
+clear_data	modules-00/ex01/main.cpp	/^void clear_data(std::string data[5])$/;"	f
+clone	modules-04/ex03/Cure.cpp	/^AMateria* Cure::clone() const$/;"	f	class:Cure
+clone	modules-04/ex03/Ice.cpp	/^AMateria* Ice::clone() const$/;"	f	class:Ice
+complain	modules-01/ex05/Harl.cpp	/^void Harl::complain(std::string level)$/;"	f	class:Harl
+complain	modules-01/ex06/Harl.cpp	/^void Harl::complain(std::string level)$/;"	f	class:Harl
+contact	modules-00/ex01/PhoneBook.hpp	/^		Contact contact[8];$/;"	m	class:PhoneBook
+convert	modules-06/ex00/ScalarConverter.cpp	/^void ScalarConverter::convert(const std::string str)$/;"	f	class:ScalarConverter
+createMateria	modules-04/ex03/MateriaSource.cpp	/^AMateria* MateriaSource::createMateria(const std::string& type)$/;"	f	class:MateriaSource
+debug	modules-01/ex05/Harl.cpp	/^void Harl::debug()$/;"	f	class:Harl
+debug	modules-01/ex06/Harl.cpp	/^void Harl::debug()$/;"	f	class:Harl
+decrementGrade	modules-05/ex00/Bureaucrat.cpp	/^void Bureaucrat::decrementGrade()$/;"	f	class:Bureaucrat
+decrementGrade	modules-05/ex01/Bureaucrat.cpp	/^void Bureaucrat::decrementGrade()$/;"	f	class:Bureaucrat
+decrementGrade	modules-05/ex02/Bureaucrat.cpp	/^void Bureaucrat::decrementGrade()$/;"	f	class:Bureaucrat
+decrementGrade	modules-05/ex03/Bureaucrat.cpp	/^void Bureaucrat::decrementGrade()$/;"	f	class:Bureaucrat
+deserialize	modules-06/ex01/Serializer.cpp	/^Data* Serializer::deserialize(uintptr_t raw)$/;"	f	class:Serializer
+displayAccountsInfos	modules-00/ex02/Account.cpp	/^void Account::displayAccountsInfos(void)$/;"	f	class:Account
+displayStatus	modules-00/ex02/Account.cpp	/^void Account::displayStatus(void) const$/;"	f	class:Account
+displayStatus	modules-03/ex00/ClapTrap.cpp	/^void	ClapTrap::displayStatus(void)$/;"	f	class:ClapTrap
+displayStatus	modules-03/ex01/ClapTrap.cpp	/^void	ClapTrap::displayStatus(void)$/;"	f	class:ClapTrap
+displayStatus	modules-03/ex02/ClapTrap.cpp	/^void	ClapTrap::displayStatus(void)$/;"	f	class:ClapTrap
+displayStatus	modules-03/ex03/ClapTrap.cpp	/^void	ClapTrap::displayStatus(void)$/;"	f	class:ClapTrap
+display_all_data	modules-00/ex01/PhoneBook.cpp	/^void PhoneBook::display_all_data (std::string index)$/;"	f	class:PhoneBook
+display_book	modules-00/ex01/PhoneBook.cpp	/^void PhoneBook::display_book(void) const$/;"	f	class:PhoneBook
+end	modules-08/ex02/MutantStack.hpp	/^	iterator end() { return std::stack<T>::c.end(); }$/;"	f	class:MutantStack
+energyPoints	modules-03/ex00/ClapTrap.hpp	/^	unsigned int energyPoints;$/;"	m	class:ClapTrap
+energyPoints	modules-03/ex01/ClapTrap.hpp	/^	unsigned int energyPoints;$/;"	m	class:ClapTrap
+energyPoints	modules-03/ex02/ClapTrap.hpp	/^	unsigned int energyPoints;$/;"	m	class:ClapTrap
+energyPoints	modules-03/ex03/ClapTrap.hpp	/^	unsigned int energyPoints;$/;"	m	class:ClapTrap
+equip	modules-04/ex03/Character.cpp	/^void Character::equip(AMateria *m)$/;"	f	class:Character
+error	modules-01/ex05/Harl.cpp	/^void Harl::error()$/;"	f	class:Harl
+error	modules-01/ex06/Harl.cpp	/^void Harl::error()$/;"	f	class:Harl
+execute	modules-05/ex02/PresidentialPardonForm.cpp	/^void PresidentialPardonForm::execute(Bureaucrat const & executor) const$/;"	f	class:PresidentialPardonForm
+execute	modules-05/ex02/RobotomyRequestForm.cpp	/^void RobotomyRequestForm::execute(Bureaucrat const & executor) const$/;"	f	class:RobotomyRequestForm
+execute	modules-05/ex02/ShrubberyCreationForm.cpp	/^void ShrubberyCreationForm::execute(Bureaucrat const & executor) const$/;"	f	class:ShrubberyCreationForm
+execute	modules-05/ex03/PresidentialPardonForm.cpp	/^void PresidentialPardonForm::execute(Bureaucrat const & executor) const$/;"	f	class:PresidentialPardonForm
+execute	modules-05/ex03/RobotomyRequestForm.cpp	/^void RobotomyRequestForm::execute(Bureaucrat const & executor) const$/;"	f	class:RobotomyRequestForm
+execute	modules-05/ex03/ShrubberyCreationForm.cpp	/^void ShrubberyCreationForm::execute(Bureaucrat const & executor) const$/;"	f	class:ShrubberyCreationForm
+executeForm	modules-05/ex02/Bureaucrat.cpp	/^void Bureaucrat::executeForm(AForm const & form)$/;"	f	class:Bureaucrat
+executeForm	modules-05/ex03/Bureaucrat.cpp	/^void Bureaucrat::executeForm(AForm const & form)$/;"	f	class:Bureaucrat
+ft_printf	modules-00/ex01/main.cpp	/^void ft_printf(const char *str)$/;"	f
+ft_toupper	modules-00/ex00/megaphone.cpp	/^char *ft_toupper(char *str) \/\/heLlo je Suis Florian$/;"	f
+generate	modules-06/ex02/main.cpp	/^Base* generate(void)$/;"	f
+getAttack	modules-03/ex01/ClapTrap.cpp	/^int ClapTrap::getAttack(void) const$/;"	f	class:ClapTrap
+getAttack	modules-03/ex02/ClapTrap.cpp	/^int ClapTrap::getAttack(void) const$/;"	f	class:ClapTrap
+getAttack	modules-03/ex03/ClapTrap.cpp	/^int ClapTrap::getAttack(void) const$/;"	f	class:ClapTrap
+getAttackDamage	modules-03/ex00/ClapTrap.cpp	/^unsigned int ClapTrap::getAttackDamage(void)$/;"	f	class:ClapTrap
+getAttackDamage	modules-03/ex01/ClapTrap.cpp	/^unsigned int ClapTrap::getAttackDamage(void)$/;"	f	class:ClapTrap
+getAttackDamage	modules-03/ex02/ClapTrap.cpp	/^unsigned int ClapTrap::getAttackDamage(void)$/;"	f	class:ClapTrap
+getAttackDamage	modules-03/ex03/ClapTrap.cpp	/^unsigned int ClapTrap::getAttackDamage(void)$/;"	f	class:ClapTrap
+getBrain	modules-04/ex01/Cat.cpp	/^Brain* Cat::getBrain() const$/;"	f	class:Cat
+getBrain	modules-04/ex01/Dog.cpp	/^Brain* Dog::getBrain() const$/;"	f	class:Dog
+getBrain	modules-04/ex02/Cat.cpp	/^Brain* Cat::getBrain() const$/;"	f	class:Cat
+getBrain	modules-04/ex02/Dog.cpp	/^Brain* Dog::getBrain() const$/;"	f	class:Dog
+getEnergy	modules-03/ex01/ClapTrap.cpp	/^int ClapTrap::getEnergy(void) const$/;"	f	class:ClapTrap
+getEnergy	modules-03/ex02/ClapTrap.cpp	/^int ClapTrap::getEnergy(void) const$/;"	f	class:ClapTrap
+getEnergy	modules-03/ex03/ClapTrap.cpp	/^int ClapTrap::getEnergy(void) const$/;"	f	class:ClapTrap
+getExecGrade	modules-05/ex01/Form.cpp	/^int Form::getExecGrade() const$/;"	f	class:Form
+getExecGrade	modules-05/ex02/AForm.cpp	/^int AForm::getExecGrade() const$/;"	f	class:AForm
+getExecGrade	modules-05/ex03/AForm.cpp	/^int AForm::getExecGrade() const$/;"	f	class:AForm
+getFormStatus	modules-05/ex01/Form.cpp	/^bool Form::getFormStatus() const$/;"	f	class:Form
+getFormStatus	modules-05/ex02/AForm.cpp	/^bool AForm::getFormStatus() const$/;"	f	class:AForm
+getFormStatus	modules-05/ex03/AForm.cpp	/^bool AForm::getFormStatus() const$/;"	f	class:AForm
+getGrade	modules-05/ex00/Bureaucrat.cpp	/^int Bureaucrat::getGrade() const$/;"	f	class:Bureaucrat
+getGrade	modules-05/ex01/Bureaucrat.cpp	/^int Bureaucrat::getGrade() const$/;"	f	class:Bureaucrat
+getGrade	modules-05/ex02/Bureaucrat.cpp	/^int Bureaucrat::getGrade() const$/;"	f	class:Bureaucrat
+getGrade	modules-05/ex03/Bureaucrat.cpp	/^int Bureaucrat::getGrade() const$/;"	f	class:Bureaucrat
+getHit	modules-03/ex01/ClapTrap.cpp	/^int ClapTrap::getHit(void) const$/;"	f	class:ClapTrap
+getHit	modules-03/ex02/ClapTrap.cpp	/^int ClapTrap::getHit(void) const$/;"	f	class:ClapTrap
+getHit	modules-03/ex03/ClapTrap.cpp	/^int ClapTrap::getHit(void) const$/;"	f	class:ClapTrap
+getIdeas	modules-04/ex01/Brain.cpp	/^std::string Brain::getIdeas(int i) const$/;"	f	class:Brain
+getIdeas	modules-04/ex02/Brain.cpp	/^std::string Brain::getIdeas(int i) const$/;"	f	class:Brain
+getName	modules-01/ex01/Zombie.cpp	/^void Zombie::getName(std::string name)$/;"	f	class:Zombie
+getName	modules-03/ex01/ClapTrap.cpp	/^std::string ClapTrap::getName(void) const$/;"	f	class:ClapTrap
+getName	modules-03/ex02/ClapTrap.cpp	/^std::string ClapTrap::getName(void) const$/;"	f	class:ClapTrap
+getName	modules-03/ex03/ClapTrap.cpp	/^std::string ClapTrap::getName(void) const$/;"	f	class:ClapTrap
+getName	modules-03/ex03/DiamondTrap.cpp	/^std::string DiamondTrap::getName(void) const$/;"	f	class:DiamondTrap
+getName	modules-04/ex03/Character.cpp	/^const std::string& Character::getName() const$/;"	f	class:Character
+getName	modules-05/ex00/Bureaucrat.cpp	/^std::string const& Bureaucrat::getName() const$/;"	f	class:std::Bureaucrat
+getName	modules-05/ex01/Bureaucrat.cpp	/^std::string const& Bureaucrat::getName() const$/;"	f	class:std::Bureaucrat
+getName	modules-05/ex01/Form.cpp	/^const std::string& Form::getName() const$/;"	f	class:Form
+getName	modules-05/ex02/AForm.cpp	/^const std::string& AForm::getName() const$/;"	f	class:AForm
+getName	modules-05/ex02/Bureaucrat.cpp	/^std::string const& Bureaucrat::getName() const$/;"	f	class:std::Bureaucrat
+getName	modules-05/ex03/AForm.cpp	/^const std::string& AForm::getName() const$/;"	f	class:AForm
+getName	modules-05/ex03/Bureaucrat.cpp	/^std::string const& Bureaucrat::getName() const$/;"	f	class:std::Bureaucrat
+getNbAccounts	modules-00/ex02/Account.cpp	/^int Account::getNbAccounts(void)$/;"	f	class:Account
+getNbDeposits	modules-00/ex02/Account.cpp	/^int Account::getNbDeposits(void)$/;"	f	class:Account
+getNbWithdrawals	modules-00/ex02/Account.cpp	/^int Account::getNbWithdrawals(void)$/;"	f	class:Account
+getRawBits	modules-02/ex00/Fixed.cpp	/^int Fixed::getRawBits(void) const$/;"	f	class:Fixed
+getRawBits	modules-02/ex01/Fixed.cpp	/^int Fixed::getRawBits(void) const$/;"	f	class:Fixed
+getRawBits	modules-02/ex02/Fixed.cpp	/^int Fixed::getRawBits(void) const$/;"	f	class:Fixed
+getSignGrade	modules-05/ex01/Form.cpp	/^int Form::getSignGrade() const$/;"	f	class:Form
+getSignGrade	modules-05/ex02/AForm.cpp	/^int AForm::getSignGrade() const$/;"	f	class:AForm
+getSignGrade	modules-05/ex03/AForm.cpp	/^int AForm::getSignGrade() const$/;"	f	class:AForm
+getTotalAmount	modules-00/ex02/Account.cpp	/^int Account::getTotalAmount(void)$/;"	f	class:Account
+getType	modules-01/ex03/Weapon.cpp	/^std::string Weapon::getType(void)$/;"	f	class:Weapon
+getType	modules-04/ex00/Animal.cpp	/^std::string Animal::getType(void) const$/;"	f	class:Animal
+getType	modules-04/ex00/WrongAnimal.cpp	/^std::string WrongAnimal::getType(void) const$/;"	f	class:WrongAnimal
+getType	modules-04/ex01/Animal.cpp	/^std::string Animal::getType(void) const$/;"	f	class:Animal
+getType	modules-04/ex02/Animal.cpp	/^std::string Animal::getType(void) const$/;"	f	class:Animal
+getType	modules-04/ex03/AMateria.cpp	/^std::string const& AMateria::getType() const$/;"	f	class:std::AMateria
+get_darkest_secret	modules-00/ex01/Contact.cpp	/^const std::string&  Contact::get_darkest_secret() const$/;"	f	class:Contact
+get_first_name	modules-00/ex01/Contact.cpp	/^const std::string&  Contact::get_first_name() const$/;"	f	class:Contact
+get_last_name	modules-00/ex01/Contact.cpp	/^const std::string&  Contact::get_last_name() const$/;"	f	class:Contact
+get_nbr_of_contact	modules-00/ex01/PhoneBook.cpp	/^int PhoneBook::get_nbr_of_contact(void) const$/;"	f	class:PhoneBook
+get_nick_name	modules-00/ex01/Contact.cpp	/^const std::string&  Contact::get_nick_name() const$/;"	f	class:Contact
+get_phone_number	modules-00/ex01/Contact.cpp	/^const std::string& Contact::get_phone_number() const$/;"	f	class:Contact
+goodbye	modules-00/ex01/PhoneBook.cpp	/^void PhoneBook::goodbye(void) const$/;"	f	class:PhoneBook
+guardGate	modules-03/ex01/ScavTrap.cpp	/^void ScavTrap::guardGate(void)$/;"	f	class:ScavTrap
+guardGate	modules-03/ex02/ScavTrap.cpp	/^void ScavTrap::guardGate(void)$/;"	f	class:ScavTrap
+guardGate	modules-03/ex03/ScavTrap.cpp	/^void ScavTrap::guardGate(void)$/;"	f	class:ScavTrap
+highFivesGuys	modules-03/ex02/FragTrap.cpp	/^void FragTrap::highFivesGuys(void)$/;"	f	class:FragTrap
+highFivesGuys	modules-03/ex03/FragTrap.cpp	/^void FragTrap::highFivesGuys(void)$/;"	f	class:FragTrap
+hitPoints	modules-03/ex00/ClapTrap.hpp	/^	unsigned int hitPoints;$/;"	m	class:ClapTrap
+hitPoints	modules-03/ex01/ClapTrap.hpp	/^	unsigned int hitPoints;$/;"	m	class:ClapTrap
+hitPoints	modules-03/ex02/ClapTrap.hpp	/^	unsigned int hitPoints;$/;"	m	class:ClapTrap
+hitPoints	modules-03/ex03/ClapTrap.hpp	/^	unsigned int hitPoints;$/;"	m	class:ClapTrap
+i	modules-00/ex01/PhoneBook.hpp	/^		int i;$/;"	m	class:PhoneBook
+ideas	modules-04/ex01/Brain.hpp	/^	std::string ideas[100];$/;"	m	class:Brain
+ideas	modules-04/ex02/Brain.hpp	/^	std::string ideas[100];$/;"	m	class:Brain
+identify	modules-06/ex02/main.cpp	/^void identify(Base *p)$/;"	f
+identify	modules-06/ex02/main.cpp	/^void identify(Base& p)$/;"	f
+incrementGrade	modules-05/ex00/Bureaucrat.cpp	/^void Bureaucrat::incrementGrade()$/;"	f	class:Bureaucrat
+incrementGrade	modules-05/ex01/Bureaucrat.cpp	/^void Bureaucrat::incrementGrade()$/;"	f	class:Bureaucrat
+incrementGrade	modules-05/ex02/Bureaucrat.cpp	/^void Bureaucrat::incrementGrade()$/;"	f	class:Bureaucrat
+incrementGrade	modules-05/ex03/Bureaucrat.cpp	/^void Bureaucrat::incrementGrade()$/;"	f	class:Bureaucrat
+index	modules-01/ex01/Zombie.hpp	/^	int index;$/;"	m	class:Zombie
+info	modules-01/ex05/Harl.cpp	/^void Harl::info()$/;"	f	class:Harl
+info	modules-01/ex06/Harl.cpp	/^void Harl::info()$/;"	f	class:Harl
+init_darkest_secret	modules-00/ex01/Contact.cpp	/^void Contact::init_darkest_secret(std::string darkest_secret)$/;"	f	class:Contact
+init_first_name	modules-00/ex01/Contact.cpp	/^void Contact::init_first_name(std::string first_name)$/;"	f	class:Contact
+init_last_name	modules-00/ex01/Contact.cpp	/^void Contact::init_last_name(std::string last_name)$/;"	f	class:Contact
+init_nick_name	modules-00/ex01/Contact.cpp	/^void Contact::init_nick_name(std::string nick_name)$/;"	f	class:Contact
+init_phone_number	modules-00/ex01/Contact.cpp	/^void Contact::init_phone_number(std::string phone_number)$/;"	f	class:Contact
+iter	modules-07/ex01/iter.hpp	/^void iter(T* array, const int len, void (*func)(const T&))$/;"	f
+iterator	modules-08/ex02/MutantStack.hpp	/^	typedef typename std::stack<T>::container_type::iterator iterator;$/;"	t	class:MutantStack
+learnMateria	modules-04/ex03/MateriaSource.cpp	/^void MateriaSource::learnMateria(AMateria* m)$/;"	f	class:MateriaSource
+longestSpan	modules-08/ex01/Span.cpp	/^int Span::longestSpan(void)$/;"	f	class:Span
+m_darkest_secret	modules-00/ex01/Contact.hpp	/^		std::string m_darkest_secret;$/;"	m	class:Contact
+m_first_name	modules-00/ex01/Contact.hpp	/^		std::string m_first_name;$/;"	m	class:Contact
+m_last_name	modules-00/ex01/Contact.hpp	/^		std::string m_last_name;$/;"	m	class:Contact
+m_nick_name	modules-00/ex01/Contact.hpp	/^		std::string m_nick_name;$/;"	m	class:Contact
+m_phone_number	modules-00/ex01/Contact.hpp	/^		std::string m_phone_number;$/;"	m	class:Contact
+main	modules-00/ex00/megaphone.cpp	/^int    main(int ac, char **av)$/;"	f
+main	modules-00/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-00/ex02/tests.cpp	/^int		main( void ) {$/;"	f
+main	modules-01/ex00/main.cpp	/^int main(void)$/;"	f
+main	modules-01/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-01/ex02/main.cpp	/^int main(void)$/;"	f
+main	modules-01/ex03/main.cpp	/^int main(void)$/;"	f
+main	modules-01/ex04/main.cpp	/^int main(int ac, char **av)$/;"	f
+main	modules-01/ex05/main.cpp	/^int main(void)$/;"	f
+main	modules-01/ex06/main.cpp	/^int main(int ac, char **av)$/;"	f
+main	modules-02/ex00/main.cpp	/^int main(void)$/;"	f
+main	modules-02/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-02/ex02/main.cpp	/^int main( void )$/;"	f
+main	modules-03/ex00/main.cpp	/^int main(void)$/;"	f
+main	modules-03/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-03/ex02/main.cpp	/^int main(void)$/;"	f
+main	modules-03/ex03/main.cpp	/^int main(void)$/;"	f
+main	modules-04/ex00/main.cpp	/^int main()$/;"	f
+main	modules-04/ex01/main.cpp	/^int main() $/;"	f
+main	modules-04/ex02/main.cpp	/^int main() $/;"	f
+main	modules-04/ex03/main.cpp	/^int main()$/;"	f
+main	modules-05/ex00/main.cpp	/^int main(void)$/;"	f
+main	modules-05/ex01/main.cpp	/^int	main(void)$/;"	f
+main	modules-05/ex02/main.cpp	/^int main(void) $/;"	f
+main	modules-05/ex03/main.cpp	/^int main(void) $/;"	f
+main	modules-06/ex00/main.cpp	/^int main(int ac, char **av)$/;"	f
+main	modules-06/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-06/ex02/main.cpp	/^int main(void)$/;"	f
+main	modules-07/ex00/main.cpp	/^int main(void)$/;"	f
+main	modules-07/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-07/ex02/main.cpp	/^int main(void)$/;"	f
+main	modules-08/ex00/main.cpp	/^int main(void) $/;"	f
+main	modules-08/ex01/main.cpp	/^int main(void)$/;"	f
+main	modules-08/ex02/main.cpp	/^int main()$/;"	f
+main	modules-09/ex00/main.cpp	/^int main(int ac, char **file)$/;"	f
+main2	modules-04/ex00/main.cpp	/^void main2()$/;"	f
+main2	modules-04/ex01/main.cpp	/^void main2()$/;"	f
+main2	modules-04/ex02/main.cpp	/^void main2()$/;"	f
+main2	modules-04/ex03/main.cpp	/^int main2(void)$/;"	f
+makeDeposit	modules-00/ex02/Account.cpp	/^void Account::makeDeposit(int deposit)$/;"	f	class:Account
+makeForm	modules-05/ex03/Intern.cpp	/^AForm* Intern::makeForm(std::string formName, std::string formTarget)$/;"	f	class:Intern
+makeSound	modules-04/ex00/Animal.cpp	/^void Animal::makeSound(void) const$/;"	f	class:Animal
+makeSound	modules-04/ex00/Cat.cpp	/^void Cat::makeSound(void) const$/;"	f	class:Cat
+makeSound	modules-04/ex00/Dog.cpp	/^void Dog::makeSound(void) const$/;"	f	class:Dog
+makeSound	modules-04/ex00/WrongAnimal.cpp	/^void WrongAnimal::makeSound(void) const$/;"	f	class:WrongAnimal
+makeSound	modules-04/ex00/WrongCat.cpp	/^void WrongCat::makeSound(void) const$/;"	f	class:WrongCat
+makeSound	modules-04/ex01/Animal.cpp	/^void Animal::makeSound(void) const$/;"	f	class:Animal
+makeSound	modules-04/ex01/Cat.cpp	/^void Cat::makeSound(void) const$/;"	f	class:Cat
+makeSound	modules-04/ex01/Dog.cpp	/^void Dog::makeSound(void) const$/;"	f	class:Dog
+makeSound	modules-04/ex02/Animal.cpp	/^void Animal::makeSound(void) const$/;"	f	class:Animal
+makeSound	modules-04/ex02/Cat.cpp	/^void Cat::makeSound(void) const$/;"	f	class:Cat
+makeSound	modules-04/ex02/Dog.cpp	/^void Dog::makeSound(void) const$/;"	f	class:Dog
+makeWithdrawal	modules-00/ex02/Account.cpp	/^bool Account::makeWithdrawal(int withdrawal)$/;"	f	class:Account
+max	modules-02/ex02/Fixed.cpp	/^Fixed& Fixed::max(Fixed& a, Fixed& b)$/;"	f	class:Fixed
+max	modules-02/ex02/Fixed.cpp	/^const Fixed& Fixed::max(const Fixed &a, const Fixed &b)$/;"	f	class:Fixed
+max	modules-07/ex00/whatever.hpp	/^T max(const T& a, const T& b)$/;"	f
+min	modules-02/ex02/Fixed.cpp	/^Fixed& Fixed::min(Fixed& a, Fixed& b)$/;"	f	class:Fixed
+min	modules-02/ex02/Fixed.cpp	/^const Fixed& Fixed::min(const Fixed &a, const Fixed &b)$/;"	f	class:Fixed
+min	modules-07/ex00/whatever.hpp	/^T min(const T& a, const T& b)$/;"	f
+name	modules-01/ex00/Zombie.hpp	/^	std::string name;$/;"	m	class:Zombie
+name	modules-01/ex01/Zombie.hpp	/^	std::string name;$/;"	m	class:Zombie
+name	modules-03/ex00/ClapTrap.hpp	/^	std::string name;$/;"	m	class:ClapTrap
+name	modules-03/ex01/ClapTrap.hpp	/^	std::string name;$/;"	m	class:ClapTrap
+name	modules-03/ex02/ClapTrap.hpp	/^	std::string name;$/;"	m	class:ClapTrap
+name	modules-03/ex03/ClapTrap.hpp	/^	std::string name;$/;"	m	class:ClapTrap
+name	modules-03/ex03/DiamondTrap.hpp	/^	std::string name;$/;"	m	class:DiamondTrap
+newZombie	modules-01/ex00/newZombie.cpp	/^Zombie* newZombie(std::string name)$/;"	f
+number_of_contact	modules-00/ex01/PhoneBook.hpp	/^		int number_of_contact;$/;"	m	class:PhoneBook
+operator !=	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator!=(const Fixed &cmp) const$/;"	f	class:Fixed
+operator *	modules-02/ex02/Fixed.cpp	/^Fixed Fixed::operator*(const Fixed &mult) const$/;"	f	class:Fixed
+operator +	modules-02/ex02/Fixed.cpp	/^Fixed Fixed::operator+(const Fixed &plus) const$/;"	f	class:Fixed
+operator ++	modules-02/ex02/Fixed.cpp	/^Fixed& Fixed::operator++() \/\/operation avant int ex: (++i);$/;"	f	class:Fixed
+operator ++	modules-02/ex02/Fixed.cpp	/^const Fixed Fixed::operator++(int) \/\/operation apres int ex: (i++);$/;"	f	class:Fixed
+operator -	modules-02/ex02/Fixed.cpp	/^Fixed Fixed::operator-(const Fixed &minus) const$/;"	f	class:Fixed
+operator --	modules-02/ex02/Fixed.cpp	/^Fixed& Fixed::operator--()$/;"	f	class:Fixed
+operator --	modules-02/ex02/Fixed.cpp	/^const Fixed Fixed::operator--(int)$/;"	f	class:Fixed
+operator /	modules-02/ex02/Fixed.cpp	/^Fixed Fixed::operator\/(const Fixed &divide) const$/;"	f	class:Fixed
+operator <	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator<(const Fixed &cmp) const$/;"	f	class:Fixed
+operator <<	modules-02/ex01/Fixed.cpp	/^std::ostream& operator<<(std::ostream& os, const Fixed& object)$/;"	f
+operator <<	modules-02/ex02/Fixed.cpp	/^std::ostream& operator<<(std::ostream& os, const Fixed& object)$/;"	f
+operator <<	modules-05/ex00/Bureaucrat.cpp	/^std::ostream& operator<<(std::ostream& os, const Bureaucrat& ref)$/;"	f
+operator <<	modules-05/ex01/Bureaucrat.cpp	/^std::ostream& operator<<(std::ostream& os, const Bureaucrat& ref)$/;"	f
+operator <<	modules-05/ex01/Form.cpp	/^std::ostream& operator<<(std::ostream& os, const Form& ref)$/;"	f
+operator <<	modules-05/ex02/AForm.cpp	/^std::ostream& operator<<(std::ostream& os, const AForm& ref)$/;"	f
+operator <<	modules-05/ex02/Bureaucrat.cpp	/^std::ostream& operator<<(std::ostream& os, const Bureaucrat& ref)$/;"	f
+operator <<	modules-05/ex03/AForm.cpp	/^std::ostream& operator<<(std::ostream& os, const AForm& ref)$/;"	f
+operator <<	modules-05/ex03/Bureaucrat.cpp	/^std::ostream& operator<<(std::ostream& os, const Bureaucrat& ref)$/;"	f
+operator <<	modules-07/ex02/Array.hpp	/^std::ostream& operator<<(std::ostream& os, const Array<T>& ref)$/;"	f
+operator <=	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator<=(const Fixed &cmp) const$/;"	f	class:Fixed
+operator =	modules-02/ex00/Fixed.cpp	/^Fixed &Fixed::operator=(const Fixed &other)$/;"	f	class:Fixed
+operator =	modules-02/ex01/Fixed.cpp	/^Fixed &Fixed::operator=(const Fixed &other)$/;"	f	class:Fixed
+operator =	modules-02/ex02/Fixed.cpp	/^Fixed &Fixed::operator=(const Fixed &other)$/;"	f	class:Fixed
+operator =	modules-03/ex00/ClapTrap.cpp	/^ClapTrap& ClapTrap::operator=(const ClapTrap &ref)$/;"	f	class:ClapTrap
+operator =	modules-03/ex01/ClapTrap.cpp	/^ClapTrap& ClapTrap::operator=(const ClapTrap &ref)$/;"	f	class:ClapTrap
+operator =	modules-03/ex01/ScavTrap.cpp	/^ScavTrap& ScavTrap::operator=(const ScavTrap &ref)$/;"	f	class:ScavTrap
+operator =	modules-03/ex02/ClapTrap.cpp	/^ClapTrap& ClapTrap::operator=(const ClapTrap &ref)$/;"	f	class:ClapTrap
+operator =	modules-03/ex02/FragTrap.cpp	/^FragTrap& FragTrap::operator=(const FragTrap& ref)$/;"	f	class:FragTrap
+operator =	modules-03/ex02/ScavTrap.cpp	/^ScavTrap& ScavTrap::operator=(const ScavTrap &ref)$/;"	f	class:ScavTrap
+operator =	modules-03/ex03/ClapTrap.cpp	/^ClapTrap& ClapTrap::operator=(const ClapTrap &ref)$/;"	f	class:ClapTrap
+operator =	modules-03/ex03/DiamondTrap.cpp	/^DiamondTrap& DiamondTrap::operator=(const DiamondTrap& ref)$/;"	f	class:DiamondTrap
+operator =	modules-03/ex03/FragTrap.cpp	/^FragTrap& FragTrap::operator=(const FragTrap& ref)$/;"	f	class:FragTrap
+operator =	modules-03/ex03/ScavTrap.cpp	/^ScavTrap& ScavTrap::operator=(const ScavTrap &ref)$/;"	f	class:ScavTrap
+operator =	modules-04/ex00/Animal.cpp	/^Animal& Animal::operator=(const Animal& ref)$/;"	f	class:Animal
+operator =	modules-04/ex00/Cat.cpp	/^Cat& Cat::operator=(const Cat& ref)$/;"	f	class:Cat
+operator =	modules-04/ex00/Dog.cpp	/^Dog& Dog::operator=(const Dog& ref)$/;"	f	class:Dog
+operator =	modules-04/ex00/WrongAnimal.cpp	/^WrongAnimal& WrongAnimal::operator=(const WrongAnimal& ref)$/;"	f	class:WrongAnimal
+operator =	modules-04/ex00/WrongCat.cpp	/^WrongCat& WrongCat::operator=(const WrongCat& ref)$/;"	f	class:WrongCat
+operator =	modules-04/ex01/Animal.cpp	/^Animal& Animal::operator=(const Animal& ref)$/;"	f	class:Animal
+operator =	modules-04/ex01/Brain.cpp	/^Brain& Brain::operator=(const Brain& ref)$/;"	f	class:Brain
+operator =	modules-04/ex01/Cat.cpp	/^Cat& Cat::operator=(const Cat& ref)$/;"	f	class:Cat
+operator =	modules-04/ex01/Dog.cpp	/^Dog& Dog::operator=(const Dog& ref)$/;"	f	class:Dog
+operator =	modules-04/ex02/Animal.cpp	/^Animal& Animal::operator=(const Animal& ref)$/;"	f	class:Animal
+operator =	modules-04/ex02/Brain.cpp	/^Brain& Brain::operator=(const Brain& ref)$/;"	f	class:Brain
+operator =	modules-04/ex02/Cat.cpp	/^Cat& Cat::operator=(const Cat& ref)$/;"	f	class:Cat
+operator =	modules-04/ex02/Dog.cpp	/^Dog& Dog::operator=(const Dog& ref)$/;"	f	class:Dog
+operator =	modules-04/ex03/AMateria.cpp	/^AMateria& AMateria::operator=(const AMateria& ref)$/;"	f	class:AMateria
+operator =	modules-04/ex03/Character.cpp	/^Character& Character::operator=(const Character& ref)$/;"	f	class:Character
+operator =	modules-04/ex03/Cure.cpp	/^Cure& Cure::operator=(const Cure& ref)$/;"	f	class:Cure
+operator =	modules-04/ex03/Ice.cpp	/^Ice& Ice::operator=(const Ice& ref)$/;"	f	class:Ice
+operator =	modules-04/ex03/MateriaSource.cpp	/^MateriaSource& MateriaSource::operator=(const MateriaSource &ref)$/;"	f	class:MateriaSource
+operator =	modules-05/ex00/Bureaucrat.cpp	/^Bureaucrat& Bureaucrat::operator=(const Bureaucrat& ref)$/;"	f	class:Bureaucrat
+operator =	modules-05/ex01/Bureaucrat.cpp	/^Bureaucrat& Bureaucrat::operator=(const Bureaucrat& ref)$/;"	f	class:Bureaucrat
+operator =	modules-05/ex01/Form.cpp	/^Form& Form::operator=(const Form& ref)$/;"	f	class:Form
+operator =	modules-05/ex02/AForm.cpp	/^AForm& AForm::operator=(const AForm& ref)$/;"	f	class:AForm
+operator =	modules-05/ex02/Bureaucrat.cpp	/^Bureaucrat& Bureaucrat::operator=(const Bureaucrat& ref)$/;"	f	class:Bureaucrat
+operator =	modules-05/ex02/PresidentialPardonForm.cpp	/^PresidentialPardonForm& PresidentialPardonForm::operator=(const PresidentialPardonForm& ref)$/;"	f	class:PresidentialPardonForm
+operator =	modules-05/ex02/RobotomyRequestForm.cpp	/^RobotomyRequestForm& RobotomyRequestForm::operator=(const RobotomyRequestForm& ref)$/;"	f	class:RobotomyRequestForm
+operator =	modules-05/ex02/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm& ShrubberyCreationForm::operator=(const ShrubberyCreationForm& ref)$/;"	f	class:ShrubberyCreationForm
+operator =	modules-05/ex03/AForm.cpp	/^AForm& AForm::operator=(const AForm& ref)$/;"	f	class:AForm
+operator =	modules-05/ex03/Bureaucrat.cpp	/^Bureaucrat& Bureaucrat::operator=(const Bureaucrat& ref)$/;"	f	class:Bureaucrat
+operator =	modules-05/ex03/Intern.cpp	/^Intern& Intern::operator=(const Intern& ref)$/;"	f	class:Intern
+operator =	modules-05/ex03/PresidentialPardonForm.cpp	/^PresidentialPardonForm& PresidentialPardonForm::operator=(const PresidentialPardonForm& ref)$/;"	f	class:PresidentialPardonForm
+operator =	modules-05/ex03/RobotomyRequestForm.cpp	/^RobotomyRequestForm& RobotomyRequestForm::operator=(const RobotomyRequestForm& ref)$/;"	f	class:RobotomyRequestForm
+operator =	modules-05/ex03/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm& ShrubberyCreationForm::operator=(const ShrubberyCreationForm& ref)$/;"	f	class:ShrubberyCreationForm
+operator =	modules-06/ex01/Serializer.cpp	/^Serializer& Serializer::operator=(const Serializer& ref) { *this = ref; return *this;}$/;"	f	class:Serializer
+operator =	modules-08/ex01/Span.cpp	/^Span& Span::operator=(const Span& ref)$/;"	f	class:Span
+operator =	modules-08/ex02/MutantStack.hpp	/^	MutantStack<T>& operator=(const MutantStack<T>& ref)$/;"	f	class:MutantStack
+operator ==	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator==(const Fixed &cmp) const$/;"	f	class:Fixed
+operator >	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator>(const Fixed &cmp) const$/;"	f	class:Fixed
+operator >=	modules-02/ex02/Fixed.cpp	/^bool Fixed::operator>=(const Fixed &cmp) const$/;"	f	class:Fixed
+p	modules-02/ex02/Fixed.cpp	/^void p(const std::string str)$/;"	f
+parseData	modules-09/ex00/BitcoinExchange.cpp	/^void Bitcoin::parseData()$/;"	f	class:Bitcoin
+parse_input	modules-00/ex01/main.cpp	/^bool parse_input(std::string data[])$/;"	f
+print	modules-07/ex01/iter.hpp	/^void print(const T& elem)$/;"	f
+printChar	modules-06/ex00/ScalarConverter.cpp	/^void ScalarConverter::printChar(std::string str)$/;"	f	class:ScalarConverter
+printDouble	modules-06/ex00/ScalarConverter.cpp	/^void ScalarConverter::printDouble(std::string str)$/;"	f	class:ScalarConverter
+printFloat	modules-06/ex00/ScalarConverter.cpp	/^void ScalarConverter::printFloat(std::string str)$/;"	f	class:ScalarConverter
+printInt	modules-06/ex00/ScalarConverter.cpp	/^void ScalarConverter::printInt(std::string str)$/;"	f	class:ScalarConverter
+printSpan	modules-08/ex01/Span.cpp	/^void Span::printSpan(void)$/;"	f	class:Span
+printSpecial	modules-06/ex00/ScalarConverter.cpp	/^void printSpecial(std::string str)$/;"	f
+print_name	modules-00/ex01/PhoneBook.cpp	/^void print_name(std::string str)$/;"	f
+randomChump	modules-01/ex00/randomChump.cpp	/^void randomChump(std::string name)$/;"	f
+rbegin	modules-08/ex02/MutantStack.hpp	/^	reverse_iterator rbegin() { return std::stack<T>::c.rbegin(); }$/;"	f	class:MutantStack
+rend	modules-08/ex02/MutantStack.hpp	/^	reverse_iterator rend() { return std::stack<T>::c.rend(); }$/;"	f	class:MutantStack
+replace	modules-01/ex04/Sedv2.cpp	/^void Sedv2::replace(std::string toFind, std::string replace) $/;"	f	class:Sedv2
+reverse_iterator	modules-08/ex02/MutantStack.hpp	/^	typedef typename std::stack<T>::container_type::iterator reverse_iterator;$/;"	t	class:MutantStack
+serialize	modules-06/ex01/Serializer.cpp	/^uintptr_t Serializer::serialize(Data* ptr)$/;"	f	class:Serializer
+setAttack	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::setAttack(int amount)$/;"	f	class:ClapTrap
+setAttack	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::setAttack(int amount)$/;"	f	class:ClapTrap
+setAttack	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::setAttack(int amount)$/;"	f	class:ClapTrap
+setBrainIdeas	modules-04/ex01/Cat.cpp	/^void Cat::setBrainIdeas(int i, std::string idea)$/;"	f	class:Cat
+setBrainIdeas	modules-04/ex01/Dog.cpp	/^void Dog::setBrainIdeas(int i, std::string idea)$/;"	f	class:Dog
+setBrainIdeas	modules-04/ex02/Cat.cpp	/^void Cat::setBrainIdeas(int i, std::string idea)$/;"	f	class:Cat
+setBrainIdeas	modules-04/ex02/Dog.cpp	/^void Dog::setBrainIdeas(int i, std::string idea)$/;"	f	class:Dog
+setEnergy	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::setEnergy(int amount)$/;"	f	class:ClapTrap
+setEnergy	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::setEnergy(int amount)$/;"	f	class:ClapTrap
+setEnergy	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::setEnergy(int amount)$/;"	f	class:ClapTrap
+setHit	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::setHit(int amount)$/;"	f	class:ClapTrap
+setHit	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::setHit(int amount)$/;"	f	class:ClapTrap
+setHit	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::setHit(int amount)$/;"	f	class:ClapTrap
+setIdeas	modules-04/ex01/Brain.cpp	/^void Brain::setIdeas(int i, std::string temp)$/;"	f	class:Brain
+setIdeas	modules-04/ex02/Brain.cpp	/^void Brain::setIdeas(int i, std::string temp)$/;"	f	class:Brain
+setName	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::setName(std::string name)$/;"	f	class:ClapTrap
+setName	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::setName(std::string name)$/;"	f	class:ClapTrap
+setName	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::setName(std::string name)$/;"	f	class:ClapTrap
+setRawBits	modules-02/ex00/Fixed.cpp	/^int Fixed::setRawBits(int const raw)$/;"	f	class:Fixed
+setRawBits	modules-02/ex01/Fixed.cpp	/^int Fixed::setRawBits(int const raw)$/;"	f	class:Fixed
+setRawBits	modules-02/ex02/Fixed.cpp	/^int Fixed::setRawBits(int const raw)$/;"	f	class:Fixed
+setStatus	modules-05/ex01/Form.cpp	/^void Form::setStatus(bool status)$/;"	f	class:Form
+setStatus	modules-05/ex02/AForm.cpp	/^void AForm::setStatus(bool status)$/;"	f	class:AForm
+setStatus	modules-05/ex03/AForm.cpp	/^void AForm::setStatus(bool status)$/;"	f	class:AForm
+setType	modules-01/ex03/Weapon.cpp	/^void  Weapon::setType(std::string type)$/;"	f	class:Weapon
+setType	modules-04/ex00/Animal.cpp	/^void Animal::setType(std::string type)$/;"	f	class:Animal
+setType	modules-04/ex00/WrongAnimal.cpp	/^void WrongAnimal::setType(std::string type)$/;"	f	class:WrongAnimal
+setType	modules-04/ex01/Animal.cpp	/^void Animal::setType(std::string type)$/;"	f	class:Animal
+setType	modules-04/ex02/Animal.cpp	/^void Animal::setType(std::string type)$/;"	f	class:Animal
+setType	modules-04/ex03/AMateria.cpp	/^void AMateria::setType(const std::string type)$/;"	f	class:AMateria
+setWeapon	modules-01/ex03/HumanB.cpp	/^void HumanB::setWeapon( Weapon &weapon)$/;"	f	class:HumanB
+shortestSpan	modules-08/ex01/Span.cpp	/^int Span::shortestSpan(void)$/;"	f	class:Span
+showBrainIdeas	modules-04/ex01/Cat.cpp	/^void Cat::showBrainIdeas() const$/;"	f	class:Cat
+showBrainIdeas	modules-04/ex01/Dog.cpp	/^void Dog::showBrainIdeas() const$/;"	f	class:Dog
+showBrainIdeas	modules-04/ex02/Cat.cpp	/^void Cat::showBrainIdeas() const$/;"	f	class:Cat
+showBrainIdeas	modules-04/ex02/Dog.cpp	/^void Dog::showBrainIdeas() const$/;"	f	class:Dog
+showIdeas	modules-04/ex01/Brain.cpp	/^void Brain::showIdeas(void) const$/;"	f	class:Brain
+showIdeas	modules-04/ex02/Brain.cpp	/^void Brain::showIdeas(void) const$/;"	f	class:Brain
+signForm	modules-05/ex01/Bureaucrat.cpp	/^void Bureaucrat::signForm(Form& Form)$/;"	f	class:Bureaucrat
+signForm	modules-05/ex02/Bureaucrat.cpp	/^void Bureaucrat::signForm(AForm& AForm)$/;"	f	class:Bureaucrat
+signForm	modules-05/ex03/Bureaucrat.cpp	/^void Bureaucrat::signForm(AForm& AForm)$/;"	f	class:Bureaucrat
+str	modules-06/ex01/Data.hpp	/^	const char *str;$/;"	m	struct:Data
+swap	modules-07/ex00/whatever.hpp	/^void swap(T& a, T& b)$/;"	f
+t	modules-00/ex02/Account.hpp	/^	typedef Account		t;$/;"	t	class:Account
+t_func	modules-01/ex05/Harl.hpp	/^typedef void (Harl::*t_func)(void);$/;"	t
+t_func	modules-01/ex06/Harl.hpp	/^typedef void (Harl::*t_func)(void);$/;"	t
+t_it	modules-08/ex01/Span.hpp	/^typedef std::multiset<int>::iterator t_it;$/;"	t
+takeDamage	modules-03/ex00/ClapTrap.cpp	/^void ClapTrap::takeDamage(unsigned int amount)$/;"	f	class:ClapTrap
+takeDamage	modules-03/ex01/ClapTrap.cpp	/^void ClapTrap::takeDamage(unsigned int amount)$/;"	f	class:ClapTrap
+takeDamage	modules-03/ex02/ClapTrap.cpp	/^void ClapTrap::takeDamage(unsigned int amount)$/;"	f	class:ClapTrap
+takeDamage	modules-03/ex03/ClapTrap.cpp	/^void ClapTrap::takeDamage(unsigned int amount)$/;"	f	class:ClapTrap
+test	modules-09/ex00/BitcoinExchange.cpp	/^void Bitcoin::test()$/;"	f	class:Bitcoin
+toFloat	modules-02/ex01/Fixed.cpp	/^float Fixed::toFloat(void) const$/;"	f	class:Fixed
+toFloat	modules-02/ex02/Fixed.cpp	/^float Fixed::toFloat(void) const$/;"	f	class:Fixed
+toInt	modules-02/ex01/Fixed.cpp	/^int Fixed::toInt(void) const$/;"	f	class:Fixed
+toInt	modules-02/ex02/Fixed.cpp	/^int Fixed::toInt(void) const$/;"	f	class:Fixed
+type	modules-04/ex00/Animal.hpp	/^	std::string type;$/;"	m	class:Animal
+type	modules-04/ex00/WrongAnimal.hpp	/^	std::string type;$/;"	m	class:WrongAnimal
+type	modules-04/ex01/Animal.hpp	/^	std::string type;$/;"	m	class:Animal
+type	modules-04/ex02/Animal.hpp	/^	std::string type;$/;"	m	class:Animal
+unequip	modules-04/ex03/Character.cpp	/^void Character::unequip(int idx)$/;"	f	class:Character
+use	modules-04/ex03/AMateria.cpp	/^void	AMateria::use(ICharacter& target)$/;"	f	class:AMateria
+use	modules-04/ex03/Character.cpp	/^void Character::use(int idx, ICharacter& target)$/;"	f	class:Character
+use	modules-04/ex03/Cure.cpp	/^void Cure::use(ICharacter& target)$/;"	f	class:Cure
+use	modules-04/ex03/Ice.cpp	/^void Ice::use(ICharacter& target)$/;"	f	class:Ice
+userIndexChoice	modules-01/ex06/Harl.cpp	/^int userIndexChoice(std::string str, std::string levels[])$/;"	f
+warning	modules-01/ex05/Harl.cpp	/^void Harl::warning()$/;"	f	class:Harl
+warning	modules-01/ex06/Harl.cpp	/^void Harl::warning()$/;"	f	class:Harl
+welcome	modules-00/ex01/PhoneBook.cpp	/^void PhoneBook::welcome(void) const$/;"	f	class:PhoneBook
+what	modules-05/ex00/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooHighException
+what	modules-05/ex00/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooLowException
+what	modules-05/ex01/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooHighException
+what	modules-05/ex01/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooLowException
+what	modules-05/ex01/Form.hpp	/^		virtual const char *what() const throw()$/;"	f	class:Form::GradeTooHighException
+what	modules-05/ex01/Form.hpp	/^		virtual const char *what() const throw()$/;"	f	class:Form::GradeTooLowException
+what	modules-05/ex02/AForm.hpp	/^		virtual const char * what() const throw()$/;"	f	class:AForm::FormNotSignedException
+what	modules-05/ex02/AForm.hpp	/^		virtual const char *what() const throw()$/;"	f	class:AForm::GradeTooHighException
+what	modules-05/ex02/AForm.hpp	/^		virtual const char *what() const throw()$/;"	f	class:AForm::GradeTooLowException
+what	modules-05/ex02/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooHighException
+what	modules-05/ex02/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooLowException
+what	modules-05/ex03/AForm.hpp	/^		virtual const char * what() const throw()$/;"	f	class:AForm::FormNotSignedException
+what	modules-05/ex03/AForm.hpp	/^		virtual const char *what() const throw()$/;"	f	class:AForm::GradeTooHighException
+what	modules-05/ex03/AForm.hpp	/^		virtual const char *what() const throw()$/;"	f	class:AForm::GradeTooLowException
+what	modules-05/ex03/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooHighException
+what	modules-05/ex03/Bureaucrat.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Bureaucrat::GradeTooLowException
+what	modules-06/ex00/ScalarConverter.hpp	/^				virtual const char* what() const throw()$/;"	f	class:ScalarConverter::EmptyException
+what	modules-06/ex00/ScalarConverter.hpp	/^				virtual const char* what() const throw()$/;"	f	class:ScalarConverter::ImpossibleException
+what	modules-07/ex02/Array.hpp	/^				virtual const char* what() const throw()$/;"	f	class:Array::OutOfBoundsException
+whoAmI	modules-03/ex03/DiamondTrap.cpp	/^void DiamondTrap::whoAmI(void) const$/;"	f	class:DiamondTrap
+zombieHorde	modules-01/ex01/zombieHorde.cpp	/^Zombie *zombieHorde(int N, std::string name)$/;"	f
+~AForm	modules-05/ex02/AForm.cpp	/^AForm::~AForm()$/;"	f	class:AForm
+~AForm	modules-05/ex03/AForm.cpp	/^AForm::~AForm()$/;"	f	class:AForm
+~AMateria	modules-04/ex03/AMateria.cpp	/^AMateria::~AMateria()$/;"	f	class:AMateria
+~Account	modules-00/ex02/Account.cpp	/^Account::~Account()$/;"	f	class:Account
+~Animal	modules-04/ex00/Animal.cpp	/^Animal::~Animal()$/;"	f	class:Animal
+~Animal	modules-04/ex01/Animal.cpp	/^Animal::~Animal()$/;"	f	class:Animal
+~Animal	modules-04/ex02/Animal.cpp	/^Animal::~Animal()$/;"	f	class:Animal
+~Base	modules-06/ex02/Class.hpp	/^		virtual ~Base() {};$/;"	f	class:Base
+~Bitcoin	modules-09/ex00/BitcoinExchange.cpp	/^Bitcoin::~Bitcoin() { }$/;"	f	class:Bitcoin
+~Brain	modules-04/ex01/Brain.cpp	/^Brain::~Brain()$/;"	f	class:Brain
+~Brain	modules-04/ex02/Brain.cpp	/^Brain::~Brain()$/;"	f	class:Brain
+~Bureaucrat	modules-05/ex00/Bureaucrat.cpp	/^Bureaucrat::~Bureaucrat()$/;"	f	class:Bureaucrat
+~Bureaucrat	modules-05/ex01/Bureaucrat.cpp	/^Bureaucrat::~Bureaucrat()$/;"	f	class:Bureaucrat
+~Bureaucrat	modules-05/ex02/Bureaucrat.cpp	/^Bureaucrat::~Bureaucrat()$/;"	f	class:Bureaucrat
+~Bureaucrat	modules-05/ex03/Bureaucrat.cpp	/^Bureaucrat::~Bureaucrat()$/;"	f	class:Bureaucrat
+~Cat	modules-04/ex00/Cat.cpp	/^Cat::~Cat()$/;"	f	class:Cat
+~Cat	modules-04/ex01/Cat.cpp	/^Cat::~Cat()$/;"	f	class:Cat
+~Cat	modules-04/ex02/Cat.cpp	/^Cat::~Cat()$/;"	f	class:Cat
+~Character	modules-04/ex03/Character.cpp	/^Character::~Character()$/;"	f	class:Character
+~ClapTrap	modules-03/ex00/ClapTrap.cpp	/^ClapTrap::~ClapTrap()$/;"	f	class:ClapTrap
+~ClapTrap	modules-03/ex01/ClapTrap.cpp	/^ClapTrap::~ClapTrap()$/;"	f	class:ClapTrap
+~ClapTrap	modules-03/ex02/ClapTrap.cpp	/^ClapTrap::~ClapTrap()$/;"	f	class:ClapTrap
+~ClapTrap	modules-03/ex03/ClapTrap.cpp	/^ClapTrap::~ClapTrap()$/;"	f	class:ClapTrap
+~Cure	modules-04/ex03/Cure.cpp	/^Cure::~Cure()$/;"	f	class:Cure
+~DiamondTrap	modules-03/ex03/DiamondTrap.cpp	/^DiamondTrap::~DiamondTrap()$/;"	f	class:DiamondTrap
+~Dog	modules-04/ex00/Dog.cpp	/^Dog::~Dog()$/;"	f	class:Dog
+~Dog	modules-04/ex01/Dog.cpp	/^Dog::~Dog()$/;"	f	class:Dog
+~Dog	modules-04/ex02/Dog.cpp	/^Dog::~Dog()$/;"	f	class:Dog
+~Fixed	modules-02/ex00/Fixed.cpp	/^Fixed::~Fixed()$/;"	f	class:Fixed
+~Fixed	modules-02/ex01/Fixed.cpp	/^Fixed::~Fixed()$/;"	f	class:Fixed
+~Fixed	modules-02/ex02/Fixed.cpp	/^Fixed::~Fixed()$/;"	f	class:Fixed
+~Form	modules-05/ex01/Form.cpp	/^Form::~Form()$/;"	f	class:Form
+~FragTrap	modules-03/ex02/FragTrap.cpp	/^FragTrap::~FragTrap()$/;"	f	class:FragTrap
+~FragTrap	modules-03/ex03/FragTrap.cpp	/^FragTrap::~FragTrap()$/;"	f	class:FragTrap
+~Harl	modules-01/ex05/Harl.cpp	/^Harl::~Harl()$/;"	f	class:Harl
+~Harl	modules-01/ex06/Harl.cpp	/^Harl::~Harl()$/;"	f	class:Harl
+~HumanA	modules-01/ex03/HumanA.cpp	/^HumanA::~HumanA(void)$/;"	f	class:HumanA
+~HumanB	modules-01/ex03/HumanB.cpp	/^HumanB::~HumanB()$/;"	f	class:HumanB
+~ICharacter	modules-04/ex03/ICharacter.hpp	/^		virtual ~ICharacter() {}$/;"	f	class:ICharacter
+~IMateriaSource	modules-04/ex03/IMateriaSource.hpp	/^		virtual ~IMateriaSource() {}$/;"	f	class:IMateriaSource
+~Ice	modules-04/ex03/Ice.cpp	/^Ice::~Ice()$/;"	f	class:Ice
+~Intern	modules-05/ex03/Intern.cpp	/^Intern::~Intern()$/;"	f	class:Intern
+~MateriaSource	modules-04/ex03/MateriaSource.cpp	/^MateriaSource::~MateriaSource()$/;"	f	class:MateriaSource
+~MutantStack	modules-08/ex02/MutantStack.hpp	/^	virtual ~MutantStack() {}$/;"	f	class:MutantStack
+~PhoneBook	modules-00/ex01/PhoneBook.cpp	/^PhoneBook::~PhoneBook()$/;"	f	class:PhoneBook
+~PresidentialPardonForm	modules-05/ex02/PresidentialPardonForm.cpp	/^PresidentialPardonForm::~PresidentialPardonForm()$/;"	f	class:PresidentialPardonForm
+~PresidentialPardonForm	modules-05/ex03/PresidentialPardonForm.cpp	/^PresidentialPardonForm::~PresidentialPardonForm()$/;"	f	class:PresidentialPardonForm
+~RobotomyRequestForm	modules-05/ex02/RobotomyRequestForm.cpp	/^RobotomyRequestForm::~RobotomyRequestForm()$/;"	f	class:RobotomyRequestForm
+~RobotomyRequestForm	modules-05/ex03/RobotomyRequestForm.cpp	/^RobotomyRequestForm::~RobotomyRequestForm()$/;"	f	class:RobotomyRequestForm
+~ScalarConverter	modules-06/ex00/ScalarConverter.cpp	/^ScalarConverter::~ScalarConverter(void){}$/;"	f	class:ScalarConverter
+~ScavTrap	modules-03/ex01/ScavTrap.cpp	/^ScavTrap::~ScavTrap()$/;"	f	class:ScavTrap
+~ScavTrap	modules-03/ex02/ScavTrap.cpp	/^ScavTrap::~ScavTrap()$/;"	f	class:ScavTrap
+~ScavTrap	modules-03/ex03/ScavTrap.cpp	/^ScavTrap::~ScavTrap()$/;"	f	class:ScavTrap
+~Sedv2	modules-01/ex04/Sedv2.cpp	/^Sedv2::~Sedv2() $/;"	f	class:Sedv2
+~ShrubberyCreationForm	modules-05/ex02/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::~ShrubberyCreationForm()$/;"	f	class:ShrubberyCreationForm
+~ShrubberyCreationForm	modules-05/ex03/ShrubberyCreationForm.cpp	/^ShrubberyCreationForm::~ShrubberyCreationForm()$/;"	f	class:ShrubberyCreationForm
+~Span	modules-08/ex01/Span.cpp	/^Span::~Span() {} $/;"	f	class:Span
+~Weapon	modules-01/ex03/Weapon.cpp	/^Weapon::~Weapon()$/;"	f	class:Weapon
+~WrongAnimal	modules-04/ex00/WrongAnimal.cpp	/^WrongAnimal::~WrongAnimal()$/;"	f	class:WrongAnimal
+~WrongCat	modules-04/ex00/WrongCat.cpp	/^WrongCat::~WrongCat()$/;"	f	class:WrongCat
+~Zombie	modules-01/ex00/Zombie.cpp	/^Zombie::~Zombie()$/;"	f	class:Zombie
+~Zombie	modules-01/ex01/Zombie.cpp	/^Zombie::~Zombie()$/;"	f	class:Zombie
