@@ -1,35 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   BitcoinExchange.hpp                                :+:      :+:    :+:   */
+/*   RPN.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/26 15:42:49 by fbesson           #+#    #+#             */
-/*   Updated: 2024/06/26 15:43:07 by fbesson          ###   ########.fr       */
+/*   Created: 2024/06/27 17:26:14 by fbesson           #+#    #+#             */
+/*   Updated: 2024/06/27 17:26:15 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
-#include <map>
 #include <iostream>
-#include <fstream>
-#include <sstream>
+#include <stack>
+#include <string>
+#include <cctype>
 #include <cstdlib>
+#include <exception>
 
-class Bitcoin
+class RPN
 {
 	public:
-	Bitcoin();
-	~Bitcoin();
-	void parseData();
-	void bitcoinExchange(const char* input);
-	bool checkDate(const std::string& date);
+		RPN();
+		~RPN();
+		void process(char *rpn);
+		void operation(const char op);
 
 	private:
-	std::map<std::string, float> _myMap;
-	typedef std::map<std::string, float>::const_iterator map_it;
-	Bitcoin(const Bitcoin& copy);
-	Bitcoin& operator=(const Bitcoin& ref);
+		std::stack<int> _stack;
+		RPN(const RPN& copy);
+		RPN& operator=(const RPN& ref);
+
 };

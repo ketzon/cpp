@@ -6,13 +6,13 @@
 #    By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/26 15:43:05 by fbesson           #+#    #+#              #
-#    Updated: 2024/06/26 15:43:07 by fbesson          ###   ########.fr        #
+#    Updated: 2024/06/29 14:39:15 by fbesson          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = btc
+NAME = PmergeMe
 CXX = c++
-SRCS = main.cpp BitcoinExchange.cpp 
+SRCS = main.cpp PmergeMe.cpp
 OBJS = $(SRCS:.cpp=.o)
 CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g
 .cpp.o:

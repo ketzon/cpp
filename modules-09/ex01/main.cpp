@@ -5,16 +5,23 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/26 15:43:00 by fbesson           #+#    #+#             */
-/*   Updated: 2024/06/29 14:33:45 by fbesson          ###   ########.fr       */
+/*   Created: 2024/06/27 17:26:18 by fbesson           #+#    #+#             */
+/*   Updated: 2024/06/30 17:00:05 by fbesson          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "BitcoinExchange.hpp"
+#include "RPN.hpp"
 
-int main(int ac, char **file)
+int main(int ac, char **av)
 {
-	if (ac != 2) return std::cerr << "error: file\n", 1;
-	Bitcoin btc;
-	btc.bitcoinExchange(file[1]);
+	try 
+	{
+		if (ac != 2) throw std::invalid_argument("need args");
+		RPN instance;
+		instance.process(av[1]);
+	}
+	catch (std::exception& e)
+	{
+		return std::cout << e.what() << std::endl, 1;
+	}
 }
