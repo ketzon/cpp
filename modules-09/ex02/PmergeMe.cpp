@@ -1,40 +1,75 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   PmergeMe.cpp                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fbesson <fbesson@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/03 14:53:14 by fbesson           #+#    #+#             */
+/*   Updated: 2024/07/03 15:15:22 by fbesson          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "PmergeMe.hpp"
 
-PmergeMe::~PmergeMe() { }
-
-PmergeMe::PmergeMe(char **intArray)
+PmergeMe::PmergeMe(char **argv)
 {
-	int i = 1;
-	while (intArray[i])
-	{
-		std::string value = intArray[i];
-		if (value.size() == 0) throwException("empty input");
-		for (size_t j = 0; j < value.size(); j++)
-			if(!isdigit(intArray[i][j])) throwException("not a number");
-		long nbr = atol(intArray[i]);
-		if (nbr > INT_MAX || nbr < 0) throwException("out of range");
-		vec.push_back(static_cast<int>(nbr));
-		deq.push_back(static_cast<int>(nbr));
-		i++;
-	}
+    for (size_t i = 1; argv[i]; i++)
+    {
+        std::string str = argv[i];
+        if (str.size() == 0) throwExcep("empty args");
+        for (size_t j = 0; j < str.size(); j++)
+            if(!isdigit(argv[i][j])) throwExcep("not a number");
+        long num = atol(argv[i]);
+        if (num > INT_MAX || num < 0) throwExcep("out of range");
+        deq.push_back(static_cast<int>(atoi(argv[i])));
+        vec.push_back(static_cast<int>(atoi(argv[i])));
+    }
+	print(BEFORE, vec);
 }
 
-void PmergeMe::print(int flag)
+PmergeMe::~PmergeMe() {}
+
+void PmergeMe::throwExcep(std::string e)
 {
-	if (flag == 0) std::cout << "before: ";
-	if (flag == 1) std::cout << "after: ";
-	std::deque<int>::iterator it = deq.begin();
-	while (it < deq.end())
-	{
-		std::cout << *it << " ";
-		it++;
-	}
-	std::cout << std::endl;
+    deq.clear();
+    vec.clear();
+    throw std::invalid_argument(e.insert(0, "error: "));
 }
 
-void PmergeMe::throwException(std::string msg)
+void PmergeMe::algorithm(void)
 {
-	deq.clear(); vec.clear();
-	msg.insert(0, "error: ");
-	throw std::invalid_argument(msg);
+    double timeVec = 0, timeDeq = 0;
+    double startTime = 0, endTime = 0;
+
+    if (vec.size() <= 7) //insertion
+    {
+        startTime = clock();
+        insertionSort(vec);
+        endTime = clock();
+        timeVec = (endTime - startTime) * 1000 / CLOCKS_PER_SEC;
+        print(AFTER, vec);
+        std::cout << "Vector sort time: " << timeVec << " ms" << std::endl;
+
+        startTime = clock();
+        insertionSort(deq);
+        endTime = clock();
+        timeDeq = (endTime - startTime) * 1000 / CLOCKS_PER_SEC;
+        std::cout << "Deque sort time: " << timeDeq << " ms" << std::endl;
+    }
+    else //merge
+    {
+        startTime = clock();
+        mergeSort(vec);
+        endTime = clock();
+        timeVec = (endTime - startTime) * 1000 / CLOCKS_PER_SEC;
+        print(AFTER, vec);
+        std::cout << "Vector merge time: " << timeVec << " ms" << std::endl;
+
+        startTime = clock();
+        mergeSort(deq);
+        double endTime = clock();
+        timeDeq = (endTime - startTime) * 1000 / CLOCKS_PER_SEC;
+        std::cout << "Deque merge time: " << timeDeq << " ms" << std::endl;
+    }
 }
